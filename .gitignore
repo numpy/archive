@@ -1,0 +1,11 @@
+.#*
+[#]*#
+*~
+*$
+*.bak
+*.diff
+.idea/
+.project
+*.rej
+.*.sw[nop]
+.ipynb_checkpoints/
