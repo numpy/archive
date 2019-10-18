@@ -1,15 +1,5 @@
 # 2019-08-17 NumPy Web Team Meeting
 
-Time: 9 a.m. Pacific Time
-
-Join Hangouts Meet: https://meet.google.com/trm-gvto-guz
-
-**note: Hangouts works best with Chrome*
-
-Join by phone: +1 980-533-5653 PIN: 455 016 082#
-
-[Slack workspace](https://numpy-team.slack.com)
-
 **Present:** Ralf, Inessa, Joe, Shekhar 
 
 
