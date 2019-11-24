@@ -7,3 +7,9 @@ Rough notes taken during the weekly community calls.
 ## `reports`
 
 Reports about the project.
+
+## `sprints`
+
+Agenda and notes from sprints.
+
+Some older sprint notes are still in the [BIDS archive](https://github.com/bids-numpy/docs).
