@@ -1,0 +1,96 @@
+---
+tags: NumPy
+---
+
+# 2019-11-27 NumPy Development Meeting
+
+- Time: 11am Pacific Time
+- Join via Zoom at https://berkeley.zoom.us/j/762261535 (or [dial-in](https://berkeley.zoom.us/u/aC3ENhycM))
+- [Trello workboard](https://trello.com/b/Azg4fYZH/numpy-at-bids)
+- [Previous meetings](https://github.com/numpy/archive/tree/master/status_meetings)
+
+**Present:** Warren, Sebastian, Stéfan, Matti, Ross, Hameer, Ralf, Chuck, Inessa
+
+
+## Dividing the calls into community calls and status calls
+
+At the sprint we discussed changing the format of these calls. On alternative weeks we will discuss high-level community topics, vs lower-level PR and issue technical discussions. We did not state which would be first.
+- Community call is now, next week is triage call
+- How do we prepare for the triage call? Mark issues and PRs [high priority](https://github.com/numpy/numpy/labels/priority%3A%20high) and [needs triage](https://github.com/numpy/numpy/labels/Triage%20Needed)
+    - Assess time needed to address, as well as community impact to prioritize.
+
+
+## Follow-up from last meeting / discussions
+
+- [Sprint summary](https://hackmd.io/t06nCEAfSJ6DhPnkhlUDRg?view). Follow on action items?
+  - Prioritize work on SIMD, dtypes.
+  - Bring together ideas on higher level APIs 
+  - Community topics: Creating Teams (such as API team to notify interested downstream)?
+  - Comment on [API + duck array proposal](https://hackmd.io/Bd5tYA_URGWcsEv1KEp70A)
+
+# Topics
+
+- [Milestones](https://github.com/numpy/numpy/milestone/69) for 1.18 release
+  - What are the important items for this release (may not be in the milestones)?
+  - Add some files with the highlights tag to `doc/release/upcoming_changes`
+  - No more milestones!
+
+- [Milestones](https://github.com/numpy/numpy/milestone/78) for 1.17.5 release
+  - [metadata in dtype](https://github.com/numpy/numpy/issues/14142)
+    - For 1.17.5 raise an error when saving. For 1.18 - figure out a solution.
+
+- Progress on numpy.org web site
+  - Added translations
+  - Content is being filled in
+  - SciPy Sphinx theme test/deploy plan:
+      - Raise issues on [the repo](https://github.com/scipy/scipy-sphinx-theme-v2/issues)
+      - Related discussion: Try and use Doxygen in C, even if we do not use it to create C-API docs yet. It integrates nicely with Sphinx with Breathe and Exhale.
+
+- Presentation to UMich (Ross visiting in a month)
+    - Faculty who want to learn about NumPy, perhaps even a few future contributors
+    - This will be at the CS dept., not to the group helping us with survey
+        - Faculty and grad/master students
+    - This will be a high level overview (project, history, community, etc.) talk with some technical detail
+        - Connect with advanced users of NumPy
+    - Vision statement + Future Plans; Roadmap may give opportunity to see how they can help us.
+
+
+- Season of Docs: we're in the final week
+    - Interest in more prominent Docs Team
+    - Blog posts to come up
+    - Work will be continuing
+
+
+- [reverting speedups](https://github.com/numpy/numpy/issues/13958) in filling ndarrays, which brought up inconsistencies in the way we handle `array(..., dtype=object)`. Do we revert (harming the general case) or document the behaviour change (harming some very obscure corner cases)?
+    - Use `__array__` in dimension discovery? (means calling it 3 times, but...); This
+      would be the most consistent/correct behaviour, so while behaviour change
+      I (Sebastian) think its probably best. (requires some work)
+
+- API + duckarray [NEP XX](https://hackmd.io/Bd5tYA_URGWcsEv1KEp70A) - To dispatch on arrays or only types?
+    - Dispatch should work only on types, but we need to assess if Dask requires the array-like instances to attach metadata to its namespace (information about chunks/GPU).
+
+- [API prioritization tool](https://gist.github.com/seberg/0fcd995a34ee31a9b7fe7bbc924b7c8f): Maybe interesting for Ralf to look at? A small Jupyter hack to mark function priority. If you take part in the "survey", send the resulting file to Sebastian and I will try to analyze the results.
+
+
+## Additional Details
+
+- Matti
+  - numpy sprint and follow-on
+  - WIP NEP to describe infrastructure for integrating vectorized instruction sets
+
+- Warren
+  - NumPy sprint.
+  - Worked on Matti's [PR to remove the use of Accelerate in Mac OSX](https://github.com/numpy/numpy/pull/14880).  Final resolution was to close the PR without merging.
+  - Review of latest update to the [PR to fix nans in output of the Dirichlet distribution](https://github.com/numpy/numpy/pull/14924) is in progress.
+  - Submitted [PR](https://github.com/numpy/numpy/pull/14988) for Trello card on "Inform users on usage of `scipy.linalg`, `np.linalg`".
+
+- Sebastian
+    - Sprint and Wrap-Up (discussion → issues)
+        - Not much special behaviour in TypeResolvers/current dispatching; Need to asses general issues with it (especially think about mixed types)
+    - Looking at NumPy API prioritization.
+    - Made a small tool to try and assess NumPy namespace: https://gist.github.com/seberg/0fcd995a34ee31a9b7fe7bbc924b7c8f (if you use it, mail me the result text file)
+
+---
+
+Please remember to archive this file and commit it to github.com/numpy/archive
+
