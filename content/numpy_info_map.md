@@ -32,37 +32,15 @@ NumPy Information Map (Classification Chart)
 
 Here is an early draft of the NumPy information map:
 
-|  Information    | What it         | 
-| ----------------|-----------------|
-| some text       |  **bold text**  |
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Information   | **What it       | **Key           | **Examples with |
-| Type**          | contains?**     | information     | a focus on      |
-|                 |                 | blocks**        | target          |
-|                 |                 |                 | audience**      |
-+=================+=================+=================+=================+
-| NumPy Concepts  | Relationships,  | 1.  Names /     |                 |
-|                 | key terms,      |     > Definitio |                 |
-|                 | definitions,    | ns              |                 |
-|                 | usage related   |                 |                 |
-|                 | ideas           | 2.  Rules       |                 |
-|                 |                 |                 |                 |
-|                 |                 | 3.  Introductio |                 |
-|                 |                 | ns              |                 |
-|                 |                 |                 |                 |
-|                 |                 | 4.  Examples    |                 |
-|                 |                 |                 |                 |
-|                 |                 | 5.  Diagrams    |                 |
-|                 |                 |                 |                 |
-|                 |                 | 6.  Syntax      |                 |
-|                 |                 |                 |                 |
-|                 |                 | 7.  Flow charts |                 |
-|                 |                 |                 |                 |
-|                 |                 | 8.  Related     |                 |
-|                 |                 |     > infomap   |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| NumPy Structure | Key components  | Physical as     | NumPy SW        |
+|** Information Type** 	| **What it contains?** | **Key information blocks**	| **Examples with a focus on target audience** 	|
+|:-------	|:----------	|:--------	|:---------	|
+| NumPy Concepts | Relationships, key terms, definitions, usage related ideas 	|* Names / Definitions<br>* Rules<br>* Introductions<br>* Examples<br>* Diagrams<br>* Syntax<br>* Flow charts<br>Related infomap| |
+| NumPy Structure | Key components of NumPy and how they work together<br><br>Both - for end user (binaries, libraries, scripts, command references etc.) and for NumPy Developers - in terms of how code is organized, control flows, deployment related structures<br><br>*This could also include NumPy org structure (if it makes sense to share it with users - say in About kind of tab on website)|Physical as well as logical components with parts and distinct boundaries.|NumPy SW Components<br><br>NumPy Code Components<br><br>NumPy History/Evolution/About<br><br> * NumPy Release and feature timeline<br><br>NumPy Org Components<br> * Steering Councils & Partners<br> * Link to Teams page (TBD)<br><br>   -Development (Community+dedicated core)<br>   - Packaging<br>   - Learning/Education (Training?)<br>  - TechPubs<br>  - Website<br>   - Marketing |
+
+
+
+| Physical as     | NumPy SW        |
 |                 | of NumPy and    | well as logical | Components      |
 |                 | how they work   | components with |                 |
 |                 | together        | parts and       | NumPy Code      |
