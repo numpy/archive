@@ -1,17 +1,14 @@
 # NumPy Information Map
 
 ## Objective
-=========
 
 There is loads of information about NumPy scattered across various sites, documents and articles besides several others that are created by the community at large. Our objective is to augment the ongoing NumPy website and documentation spruce-up efforts, through classification of key information related to NumPy. This will help in identifying inconsistencies, gaps and missing pieces that could be addressed as part of NumPy documentation (GSoD, others) and marketing, funding and other related initiatives. The eventual goal is to accelerate the process of on-boarding new NumPy users and make it easy for seasoned users to access relevant information about NumPy in crisp, digestible chunks. We plan to create and use NumPy Information Map to meet this objective.
 
 ## What is an Information Map?
-===========================
 
 An information map helps with analysis, organization, and visual presentation of information. It is a way of classifying and organizing information such as concepts, procedures, proposals, manuals such that it is available to the target audience in digestible chunks. An information map enables efficient information access by improving structure and readability. It also provides the much needed focus on target audience or the 'user', especially in the way information is generated, stored and accessed.
 
 ## What problem does it solve?
-===========================
 
 Following is a list of some of the key problems that can be addressed by an information map. For more details on benefits gained by information mapping, see the reference section.
 
