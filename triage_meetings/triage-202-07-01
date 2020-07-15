@@ -1,0 +1,64 @@
+---
+tags: NumPy, triage
+---
+
+# 2020-07-01 NumPy Development Meeting -- Triage
+
+Note: we now alternate between [community meetings](https://hackmd.io/76o-IxCjQX2mOXO_wwkcpg) and triage meetings.
+
+- Time: 11am Pacific Time
+- Join via Zoom at https://berkeley.zoom.us/j/762261535 (or [dial-in](https://berkeley.zoom.us/u/aC3ENhycM))
+- [Trello workboard](https://trello.com/b/Azg4fYZH/numpy-at-bids)
+- [Previous community meetings](https://github.com/numpy/archive/tree/master/status_meetings)
+- [Previous triage meetings](https://github.com/numpy/archive/tree/master/triage_meetings)
+
+
+**Present:** Hameer, Warren, Ross, Sebastian, Rakesh, Anirudh, Matti
+
+
+## Triage
+
+- [PRs and issues labelled with "Triage-Review"](https://github.com/numpy/numpy/labels/Triage-review) (2 open, please add)
+  - PR on `__array_wrap__` [14489](https://github.com/numpy/numpy/pull/14489) still needs more discussion.
+
+- [PRs and issues labeled with "needs decision"](https://github.com/numpy/numpy/labels/54%20-%20Needs%20decision) (55 open)
+
+- [Open PRs (>240 open)](https://github.com/numpy/numpy/pulls) can we get this below 200?
+
+- Ross' list of cross-referenced issues: https://rossbar.github.io/github_graphql/index.html
+
+
+
+## Topics
+
+- Assigning scalars with casting:
+  * `arr1d_int64[0] = float64`  uses `int(float64)`
+  * `arr1d_int64[0] = float64` uses casting like `np.array(float64).astype(np.int64)`
+
+  In general we *have* to use the second method, the first one is quicker (and currently often used). Any opinions on whether we should retain the first behaviour.  It differs for conversion of NaN, which fails in the former, but (currently) not in the second cast.  We could keep the first as a fast-path for our dtypes though...
+
+- Register with sequence ABC: https://github.com/numpy/numpy/issues/2776
+  - Tricky, but arrays are not sequences in a few ways:
+    - 0-d arrays are not sequences
+    - `__contains__` does not work like for sequences
+    - Arrays tend to behave differently to typical python sequences generally, maybe there is a better solution (even a new ABC for something like an array-programming "ElementwiseContainer")
+
+- SciPy Sprints: Put everything into a HackMD (Matti will set up and send to the conference to list)
+  - Figure out whether we use "waiting room", etc. 
+
+
+
+
+## Additional Details
+
+- Warren
+
+- Sebastian
+
+
+- Ross
+  * Issue "analysis" static site: https://rossbar.github.io/github_graphql/index.html
+
+---
+
+Please remember to archive this file and commit it to github.com/numpy/archive
