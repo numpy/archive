@@ -1,8 +1,21 @@
 # A collection of documents about the NumPy project, as a historical record.
 
-## `status_meetings`
+## `community_meetings`
 
-Rough notes taken during the weekly community calls.
+Rough notes taken during bi-weekly community meetings.
+
+## `triage_meetings`
+
+Rough notes taken during bi-weekly triage meetings.
+
+## `docs_team_meetings`
+
+Rough notes taken during bi-weekly documentation team meetings.
+
+
+## `web_team_meetings`
+
+Rough notes taken during web team meetings.
 
 ## `reports`
 
