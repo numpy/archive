@@ -1,4 +1,4 @@
-# A collection of documents about the NumPy project, as a historical record.
+# Archive of documents related to the project governance and management.
 
 ## `community_meetings`
 
