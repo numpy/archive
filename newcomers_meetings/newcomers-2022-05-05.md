@@ -16,14 +16,8 @@ If you see violations, take a screenshot, intervene in a respectful manner, and 
 **Present** *(please add your name and GitHub handle, it's completely optional)*: Inessa Pawson (@inessapawson), Dilia Rueda (@dbrs01), Sebastian Berg (@seberg), Mukulika Pahari (@Mukulikaa), Greg Lucas (@greglucas), Ricardo Prins (@ricardoprins), Melissa Weber Mendonça (@melissawm), Alex de Siqueira (@alexdesiqueira), Bhavuk Kalra (@bhavukkalra)
 
 
-### AGENDA
-(*Feel free to add items for discussion to this agenda!*)
-
-* Introductions (your name, a few words about your experience as a NumPy user/contributor, and a fun fact about you).
-* Questions, comments, suggestions.
-
 ### MEETING NOTES
-* Discussion on Open Issue - Improvements in Doc Strings throughout the project (adding various examples) https://github.com/numpy/numpy/issues/21351
+* Discussion on the tracking issue https://github.com/numpy/numpy/issues/21351: consider revising examples not only in docstrings, but throughout the project documentation. Bhavuk will open a new tracking issue for that. 
 
 For documentation, NumPy is following Diataxis framework: https://diataxis.fr
 
@@ -36,10 +30,13 @@ For documentation, NumPy is following Diataxis framework: https://diataxis.fr
 - [Using gitpod for NumPy development](https://numpy.org/devdocs/dev/development_gitpod.html)
 
 
-### Let's keep in touch!
+### Let's connect and keep the conversation going!
 Join our **Slack** workspace: https://join.slack.com/t/numpy-team/shared_invite/zt-e2d24txg-w3Mq1OJZ2nEAAcGgQOoC0A
-Sing up to our **mailing list**: mail.python.org/mailman/listinfo/numpy-discussion
+
+Sign up to our **mailing list**: mail.python.org/mailman/listinfo/numpy-discussion
+
 Follow us on **Twitter**: [@numpy_team](https://twitter.com/numpy_team)
+
 Subscribe to our **YouTube** channel: https://www.youtube.com/c/NumPy_team
 
 ---
