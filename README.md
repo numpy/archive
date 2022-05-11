@@ -2,20 +2,23 @@
 
 ## `community_meetings`
 
-Rough notes taken during bi-weekly community meetings.
+Notes taken during bi-weekly community meetings.
+
+## `newcomers_meetings`
+
+Notes taken during bi-weekly Newcomers' Hours.
 
 ## `triage_meetings`
 
-Rough notes taken during bi-weekly triage meetings.
+Notes taken during bi-weekly triage meetings.
 
 ## `docs_team_meetings`
 
-Rough notes taken during bi-weekly documentation team meetings.
-
+Notes taken during bi-weekly documentation team meetings.
 
 ## `web_team_meetings`
 
-Rough notes taken during web team meetings.
+Notes taken during web team meetings.
 
 ## `reports`
 
