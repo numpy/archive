@@ -44,5 +44,5 @@ Follow us on **Twitter**: [@numpy_team](https://twitter.com/numpy_team)
 Subscribe to our **YouTube** channel: https://www.youtube.com/c/NumPy_team
 
 ---
-Please remember to archive this file in [github.com/numpy/archive/newcomers_meetings](https://github.com/numpy/archive/tree/main/community_meetings)
+Please remember to archive this file in [github.com/numpy/archive/newcomers_meetings](https://github.com/numpy/archive/tree/main/newcomers_meetings)
 
