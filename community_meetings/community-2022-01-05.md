@@ -1,4 +1,4 @@
-# 2022–01-0519 NumPy Community Meeting
+# 2022–01-05 NumPy Community Meeting
 
 Note: we now alternate between [triage meetings](https://hackmd.io/68i_JvOYQfy9ERiHgXMPvg) and community meetings.
 
