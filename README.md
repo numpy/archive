@@ -1,4 +1,4 @@
-# Archive of documents related to the project governance and management.
+# Archive of documents related to the project governance and management
 
 ## `community_meetings`
 
