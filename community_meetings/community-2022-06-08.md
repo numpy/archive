@@ -20,9 +20,9 @@ If you see violations, take a screenshot, intervene in a respectful manner, and 
 ## Follow-up from last meeting / discussions
 
 
-* **NumPy Newcomers’ Hour** – June 2nd, 2022 at 4 pm UTC
-  Speaker: Sebastian Berg
-  Topic: Maintaining NumPy: Deprecations
+* **NumPy Newcomers’ Hour** – June 2nd, 2022 at 4 pm UTC<br>
+  Speaker: Sebastian Berg<br>
+  Topic: Maintaining NumPy: Deprecations<br>
   Video recording is now available on the NumPy YouTube channel: https://youtu.be/DjiC4-8c5f0
   (Remember to subscribe!)
 
