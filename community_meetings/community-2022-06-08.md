@@ -95,9 +95,13 @@ The list gives an idea of *truly* inactive PRs.
         * Ross: You mean the colors are lying to me??
 ---
 ### Let's connect and keep the conversation going!
+
 Join our **Slack** workspace: https://join.slack.com/t/numpy-team/shared_invite/zt-e2d24txg-w3Mq1OJZ2nEAAcGgQOoC0A
+
 Sign up to our **mailing list**: mail.python.org/mailman/listinfo/numpy-discussion
+
 Follow us on **Twitter**: [@numpy_team](https://twitter.com/numpy_team)
+
 Subscribe to our **YouTube** channel: https://www.youtube.com/c/NumPy_team
 
 ---
