@@ -1,4 +1,4 @@
-**NUMPY COMMUNITY EVENTs ANNOUNCEMENTS**
+**NUMPY COMMUNITY EVENTS ANNOUNCEMENTS**
 
 Every event announcement must contain the following information:
 - type of a NumPy community event (e.g., triage meeting),
