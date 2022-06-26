@@ -45,21 +45,21 @@ Note: we now alternate between [triage meetings](https://hackmd.io/68i_JvOYQfy9E
 * Apparently the fix for one of the CVEs got missed for 1.22.2? https://github.com/numpy/numpy/issues/19038#issuecomment-1048886879
   * Sebastian will send an update request.
 
-* **NumPy Newcomers' Hour** – March 10th, 2022 at 4 pm UTC 
-*Speaker:* Mukulika Pahari
+* **NumPy Newcomers' Hour** – March 10th, 2022 at 4 pm UTC</br>
+*Speaker:* Mukulika Pahari</br>
 *Topic:*  Presentation of the tutorial <i>Analyzing the impact of the lockdown on air quality in Delhi, India</i> (https://numpy.org/numpy-tutorials/content/tutorial-air-quality-analysis.html)
 
-* **PyCon US 2022 – Maintainers Summit**
-Call for proposals is open: https://forms.gle/oWbzY6B4MJwhUjTQ7
-*Event schedule:*
-Sunday, April 24th, 2022 – pre-recorded talks are released
-Friday, April 29th, 2022 – live Q&A with the presenters of talks
-Time: TBD
-Location: in person and via Zoom
+* **PyCon US 2022 – Maintainers Summit**</br>
+Call for proposals is open: https://forms.gle/oWbzY6B4MJwhUjTQ7</br>
+*Event schedule:*</br>
+Sunday, April 24th, 2022 – pre-recorded talks are released</br>
+Friday, April 29th, 2022 – live Q&A with the presenters of talks</br>
+Time: TBD</br>
+Location: in person and via Zoom</br>
 
 * Nvidia is hiring a NumPy maintainer: https://mail.python.org/archives/list/numpy-discussion@python.org/message/G3C46ECE5SA6AXJZVVA7JKANSRYPJRNQ/
 
-* Address #10363 where numpy.vectorized functions return array unconditionally: https://github.com/numpy/numpy/pull/10378
+* Address #10363 where numpy.vectorized functions return array unconditionally: https://github.com/numpy/numpy/pull/10378</br>
 It looks like the behaviour described in the linked issue is specific to SymPy. A broader discussion is needed, perhaps even a NEP.
 
 
