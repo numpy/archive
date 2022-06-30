@@ -25,7 +25,7 @@ on the mailing list (mainly to protect the Zoom link).</br>
 *Example:* https://mail.python.org/archives/list/numpy-discussion@python.org/message/HSV42FWEXOHHSPDXQLUGNM2KN75FEFGL/
 3. Post an announcement on Twitter (@numpy_team) with the (newly created) graphic poster linking to the announcement 
 on the mailing list (mainly to protect the Zoom link).</br> 
-*Example:*
+*Example:* https://twitter.com/numpy_team/status/1542495139771437057
 4. Post an announcement with the graphic poster on NumPy Slack in the #events channel.</br> 
 *Example:* https://numpy-team.slack.com/archives/CSH99M19C/p1653963585551019
 5. Post an announcement on Google calendar.
