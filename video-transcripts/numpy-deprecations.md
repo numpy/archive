@@ -1,1 +1,1313 @@
 Task: add a transcript of the video here.
+
+### Transcript of [Maintaining NumPy: Deprecations :: Sebastian Berg](https://www.youtube.com/watch?v=DjiC4-8c5f0)
+
+0:00:03.920,0:00:09.120
+Welcome, welcome, everyone! My name is 
+Inessa Pawson. I'm a contributor experience  
+
+0:00:09.120,0:00:14.880
+lead for NumPy. I'm a caucasian blonde woman 
+wearing a navy blue dress and a blue headset.  
+
+0:00:15.760,0:00:18.560
+If you're just joining us, please 
+introduce yourself in the chat. 
+
+0:00:19.120,0:00:24.880
+I'd like to remind you that all attendees of NumPy 
+community events must adhere to the NumPy Code  
+
+0:00:24.880,0:00:31.600
+of Conduct. The NumPy Steering Council has made a 
+strong commitment to creating an open, inclusive,  
+
+0:00:31.600,0:00:37.360
+and positive community. If you haven't done it 
+already, please read the NumPy Code of Conduct for  
+
+0:00:37.360,0:00:43.360
+guidance on how to interact with others in a way 
+that makes the community thrive. All attendees  
+
+0:00:43.360,0:00:49.200
+of our events must adhere to it. I wish for you 
+all to have a positive experience at our events.  
+
+0:00:50.000,0:00:54.480
+If you see violations, take a screenshot, 
+intervene in a respectful manner, and  
+
+0:00:54.480,0:01:01.200
+report to the Code of Conduct Committee via email. 
+I will post this information in the chat as well. 
+
+0:01:02.560,0:01:10.800
+And now on to the main event. Deprecations are 
+an important part of the software lifecycle  
+
+0:01:10.800,0:01:15.760
+and today sebastian sebastian berg an empire 
+core developer will share his knowledge about  
+
+0:01:15.760,0:01:22.960
+applications in numpy sebastian please take it 
+away hi everyone i'm sebastian i'm currently  
+
+0:01:22.960,0:01:28.800
+working at the berkeley institute for data science 
+or numpy and i've been a core contributors for  
+
+0:01:28.800,0:01:34.960
+a pretty long time in numpy today as inessa 
+said deprecations are fairly important in our  
+
+0:01:34.960,0:01:40.640
+lifecycle because it's the only way for most 
+things to move forward to get rid of old features  
+
+0:01:40.640,0:01:47.120
+and then replace it with new ones and then they 
+prove numpy on the way so it's an important part  
+
+0:01:47.120,0:01:52.640
+of moving forward and one part of it is to 
+introduce the deprecation and the other part  
+
+0:01:52.640,0:01:57.920
+of the deprecation life cycle is to then finally 
+go through with it and finalize deprecations  
+
+0:01:57.920,0:02:05.440
+and today i wanted to show one maybe two 
+deprecations just go through and finalize them  
+
+0:02:06.960,0:02:12.880
+um one in python and then maybe if you 
+have time we'll have a look at the C  
+
+0:02:12.880,0:02:19.520
+thing the c deprecations or start on it 
+with it so in generally numpy deprecations  
+
+0:02:20.240,0:02:25.280
+we have a test file where some of them are 
+listed we also have on the issue tracker  
+
+0:02:26.400,0:02:34.320
+a small issue where some deprecations are gathered 
+then this tends to be a little bit outdated so you  
+
+0:02:34.320,0:02:38.720
+have to go through a few to find one maybe but 
+you should be able to find some they are also  
+
+0:02:38.720,0:02:43.520
+embarked in the code always with when 
+they when the deprecation happens just to  
+
+0:02:43.520,0:02:49.840
+uh keep track of it so if i can 
+share a screen now let's see
+
+0:02:56.800,0:02:57.520
+is this working
+
+0:03:01.280,0:03:09.360
+yeah we can see yeah okay perfect so 
+let me maybe start with the issues here  
+
+0:03:10.720,0:03:17.840
+we have an old issue which is marked 
+as a tracking issue as a task sorry
+
+0:03:19.920,0:03:26.480
+about deprecations deprecate python 
+code with deprecation warning  
+
+0:03:28.480,0:03:33.040
+and unfortunately this is this is like this 
+is quite long long and a few of them have a  
+
+0:03:33.040,0:03:41.520
+note already about trickiness or or what to 
+follow up on but one thing that is very old  
+
+0:03:41.520,0:03:47.600
+and that i want to look at today is this the 
+histogram with the non-keyword argument so  
+
+0:03:47.600,0:03:54.560
+this was deprecated very very long time ago um 
+or at least the intention to be deprecated in  
+
+0:03:54.560,0:04:02.480
+1.6 already which is before i started working 
+on numpy so let's have a look at how to  
+
+0:04:03.520,0:04:08.800
+finally remove this non-keyword argument and 
+replace it with the density one so i don't know  
+
+0:04:08.800,0:04:16.080
+if how how familiar you are with histograms. you 
+could check the documentation i guess um just to
+
+0:04:19.840,0:04:23.040
+let's just google it numpy histogram
+
+0:04:25.200,0:04:30.880
+so the numpy.hisogram is a non-keyword argument 
+but the non-keyword argument is deprecated here  
+
+0:04:32.080,0:04:36.080
+let me make this a bit 
+bigger it's deprecated since  
+
+0:04:36.640,0:04:42.720
+numpy 1.6 and it should be the density argument 
+that should be used instead so what we have to do is  
+
+0:04:42.720,0:04:47.360
+remove the non-keyword argument and replace 
+it with the density which already exists
+
+0:04:50.160,0:04:55.840
+how do how would i normally 
+go about this type of thing
+
+0:04:59.840,0:05:09.840
+i have locally set up my environment here and 
+um i personally use runtests.py usually which  
+
+0:05:10.560,0:05:15.840
+runs our test suit and allows you 
+to drop into an ipython shell and
+
+0:05:18.560,0:05:20.800
+if i open this then numpy is already imported  
+
+0:05:21.920,0:05:27.040
+and i can check here histogram so the main point 
+the first point is if i want to touch the code  
+
+0:05:27.040,0:05:32.400
+i need to know where the code is and i often 
+use ipython for this because it's pretty quick  
+
+0:05:32.400,0:05:38.880
+just question my question mark and then you see 
+the code if it was a c function you would not see  
+
+0:05:38.880,0:05:43.920
+much but in the python function this works great 
+and histogram is written in python so here we can  
+
+0:05:43.920,0:05:51.840
+already see the signature norm's keyboard argument 
+here and density over here and if we scroll down
+
+0:05:52.880,0:05:59.440
+then we see also the warnings here um 
+yeah deprecation warning deprecation  
+
+0:05:59.440,0:06:03.440
+warning so all of this is if the 
+norm keyword argument is active
+
+0:06:05.520,0:06:12.960
+so where does this file live that we 
+can see nicely ipython tells us here  
+
+0:06:13.520,0:06:19.840
+um it lives in numpy lib histograms.py so 
+what we now have to do is modify the code  
+
+0:06:20.960,0:06:24.880
+which there's usually something which 
+makes it slightly more complicated  
+
+0:06:25.440,0:06:29.520
+but let's have a look at the 
+code first so this is a numpy lib
+
+0:06:29.520,0:06:38.080
+it's probably too small to see but histograms and 
+then we should search for the histogram function
+
+0:06:40.800,0:06:45.440
+and there we go and what i will do now 
+which i suppose we may have to discuss  
+
+0:06:45.440,0:06:52.240
+on the on the PR later also again i will we 
+have to get rid of the normed keyword argument  
+
+0:06:53.440,0:06:58.800
+people might be passing the normed keyword 
+argument by position but normally the density  
+
+0:06:58.800,0:07:04.240
+is the same as the node so i will replace 
+the normed keyword argument with the density  
+
+0:07:06.160,0:07:09.840
+because both passing both wouldn't 
+make sense so that should be fine  
+
+0:07:11.520,0:07:17.840
+um and one tricky thing about numpy is 
+that we have this array function dispatch  
+
+0:07:17.840,0:07:24.160
+and if you look closely there's a histogram 
+dispatcher up here so um the normed
+
+0:07:24.960,0:07:29.840
+equals none is here as well it shows up here 
+as well so i have to do the same thing here
+
+0:07:32.640,0:07:36.720
+and for now i will just keep this make this change
+
+0:07:39.280,0:07:40.800
+scroll down since
+
+0:07:43.520,0:07:49.680
+we can't be using normed anymore let 
+me search for normed so here the
+
+0:07:54.320,0:07:57.600
+let's see what happens here if 
+density is not none then if normed 
+
+0:07:57.600,0:08:00.480
+is also not none then we 
+give a deprecation warning  
+
+0:08:01.120,0:08:07.280
+um we don't need any of this normed does not exist 
+anymore so this can't this branch can't be taken
+
+0:08:09.520,0:08:11.840
+sorry i pressed the wrong button
+
+0:08:14.080,0:08:21.920
+okay so this whole branch is unnecessary 
+anymore now density is still ground if  
+
+0:08:21.920,0:08:28.960
+normed is again never taken 
+so this warning can be removed
+
+0:08:32.720,0:08:39.680
+and this whole branch is also yeah this whole 
+branch can also be removed normed is never  
+
+0:08:39.680,0:08:45.120
+true the else branch can be taken but normed can 
+never be true so this branch i can also delete
+
+0:08:48.240,0:08:54.800
+and in principle the change is now already 
+done we can see here already below if we  
+
+0:08:54.800,0:09:01.120
+look numpy doesn't have just histogram but it 
+also has histogram 3d and histogram 2d so those  
+
+0:09:01.120,0:09:07.840
+will also need changing but let's for now do 
+what we always have to do when we did the change
+
+0:09:10.000,0:09:19.120
+we ran the numpy tester which is the command 
+python runtests.py i'm using 3.9 right now for  
+
+0:09:19.840,0:09:23.440
+reasons but basically any 
+the python you use will work
+
+0:09:26.640,0:09:30.640
+so this will the tests will run a while for now  
+
+0:09:31.520,0:09:40.800
+um so i don't know why it takes so long but in 
+the meantime um i will just have a look at the
+
+0:09:42.960,0:09:49.840
+documentation because also that needs changing
+
+0:09:50.480,0:10:03.840
+i just do need this
+
+0:10:11.840,0:10:18.320
+okay so this is histogram dd now which i 
+will have a look later so what until now
+
+0:10:24.800,0:10:29.200
+until now i changed the signature deleted 
+all the old code that is unnecessary now  
+
+0:10:30.880,0:10:45.840
+um modified the documentation and 
+i'm running the test suite right now
+
+0:10:50.000,0:10:56.960
+a quick question for running the uh test suite 
+is there an option for like uh parallel dispatch  
+
+0:10:56.960,0:11:04.560
+there yes and i probably should have given that 
+you can do oh uh so the run test doesn't have it  
+
+0:11:05.280,0:11:13.840
+um i think or doesn't expose it right now 
+you can use xdist um the py testxdist
+
+0:11:15.520,0:11:22.560
+so i have that can i just use the same like dash 
+n flag after this okay so i can do it here too i  
+
+0:11:22.560,0:11:29.280
+just um like i don't i don't usually do it right 
+now but next time i will do it. gotcha thank you
+
+0:11:31.520,0:11:37.600
+it should work yeah. pandas and then a lot 
+of projects use it the numpy test suite  
+
+0:11:37.600,0:11:42.800
+is a bit quicker than most but it also 
+takes two minutes or three minutes or so
+
+0:11:47.760,0:11:48.000
+so
+
+0:11:50.960,0:11:54.480
+what we'll have to do after this test 
+is now fix all the tests that break  
+
+0:11:54.480,0:11:58.000
+think about if we have to add new 
+tests i think in this case we don't  
+
+0:11:58.000,0:12:01.440
+really have to add any new tests 
+probably because it's just a remover  
+
+0:12:03.120,0:12:09.840
+but normally you probably have to add some 
+new test to replace whatever tests was there
+
+0:12:17.840,0:12:21.040
+okay we got lucky there's only 
+a single test failure right now  
+
+0:12:21.840,0:12:25.120
+and it's in test histogram test normed
+
+0:12:27.280,0:12:37.200
+i already got it test normed so the test normed 
+is basically testing the deprecation warning um if  
+
+0:12:37.200,0:12:42.720
+normed was passed. it's a bit surprising 
+there should probably be more tests  
+
+0:12:42.720,0:12:47.200
+here because i don't think these exercises 
+are the code passed where we give warnings  
+
+0:12:47.920,0:12:55.040
+but uh so be it we don't actually need to worry 
+about that right now i will replace this test um  
+
+0:12:56.400,0:13:01.120
+with a test that just briefly checks 
+that indeed normed raises an error  
+
+0:13:02.800,0:13:09.280
+so it basically calls histogram here the result 
+won't work anymore so this would be an error  
+
+0:13:09.280,0:13:19.840
+so i will say b equals and np.random.random let's just 
+take 10 or 100 and then with pytest.raises
+
+0:13:21.840,0:13:26.160
+this should raise the type error because 
+type error was erased if there are any missing  
+
+0:13:28.080,0:13:30.320
+keyword or additional keyword arguments
+
+0:13:33.840,0:13:42.400
+okay so this should um replace the old test with 
+the new one that just checks that there's an error  
+
+0:13:42.400,0:13:50.240
+and should probably work hopefully i didn't do 
+a mistake here um we can just run this one test  
+
+0:13:52.240,0:14:01.840
+so that it's a bit quicker 
+i won't run that in parallel
+
+0:14:03.280,0:14:05.360
+it's that's normed removed
+
+0:14:07.520,0:14:16.160
+oh yeah yeah i renamed it right exactly thanks so 
+that doesn't exist okay so so i changed this test  
+
+0:14:16.160,0:14:22.720
+now um the test should fully pass now so we have 
+to continue with all the rest around this which is  
+
+0:14:23.440,0:14:26.720
+the non-keyword argument wasn't just 
+in histogram but it was also in all  
+
+0:14:26.720,0:14:35.040
+the other histogram functions unfortunately so 
+we have to do the same thing for histogram dd
+
+0:14:37.360,0:14:44.000
+again move the density keyword argument
+
+0:14:44.000,0:14:47.520
+the dispatcher which is a bit 
+special the numpy that we have this
+
+0:14:52.080,0:14:57.840
+and then let's see okay i can just change this
+
+0:14:59.440,0:15:11.840
+see what we have to change let's 
+change that actually density is true
+
+0:15:16.000,0:15:26.320
+probably in the review process we might have 
+to check this a bit more carefully um not
+
+0:15:26.320,0:15:33.520
+up only down here this is normed this 
+normed this is all just normed and density  
+
+0:15:35.120,0:15:44.640
+um argument to make the entity not if true then we 
+have the density which we keep so this is actually  
+
+0:15:44.640,0:15:53.840
+seems to be already it if i search for normed 
+this is no other result so this changes histogram dd
+
+0:15:54.960,0:15:59.920
+let's run the test suite with this so the way 
+i can run the test suite right now with the  
+
+0:15:59.920,0:16:05.040
+x disc i think it's installed is - -N6
+
+0:16:05.040,0:16:05.440
+let's see
+
+0:16:07.600,0:16:13.040
+no how does it work with x test i 
+think usually lowercase n and then  
+
+0:16:14.560,0:16:23.520
+thanks not good yeah so the run test doesn't i 
+think doesn't forward it right now so i'm using  
+
+0:16:23.520,0:16:29.680
+the dash dash to pass arbitrary arguments 
+to py test that's how run test is set up
+
+0:16:31.760,0:16:35.840
+you can also run py test directly 
+but this is kind of convenient
+
+0:16:42.720,0:16:45.600
+i'm wondering if i'm using an old 
+version of py test because it's  
+
+0:16:46.480,0:16:50.560
+running fairly slow and i thought 
+py test improved the speed here but
+
+0:16:56.960,0:17:02.560
+so for the runtests it what does 
+it rebuild numpy each time it  
+
+0:17:03.200,0:17:09.920
+launches the test suite yeah it rebuilds numpy but 
+um since it only recompiles if the actual changes  
+
+0:17:09.920,0:17:14.800
+and then i see cache installed so rebuilding 
+is normally so quick that i don't care about it
+
+0:17:17.360,0:17:23.280
+well what did you mean c cache what is that 
+um i don't know how much influence it has  
+
+0:17:23.280,0:17:29.760
+honestly c cache is a program that wraps gcc or 
+wraps the compiler and only recompiles files  
+
+0:17:29.760,0:17:37.120
+that actually changed so even if the but i'm 
+not sure if that matters whether it's the um  
+
+0:17:38.240,0:17:46.080
+the python setup installer that avoids recompiling 
+or whether it's the c cache that kicks in and  
+
+0:17:46.880,0:17:50.800
+improve the speed i'm not quite 
+sure what's the important component  
+
+0:17:50.800,0:17:55.360
+okay i guess it's probably going to be the python 
+thing because same thing in SkLearn it can  
+
+0:17:55.360,0:18:01.360
+avoid the redundant recompiles right it should 
+avoid it um i suppose c cache might help if you  
+
+0:18:01.360,0:18:14.000
+do get cleanup and then all of it is gone it 
+might kick in and still replace some of it
+
+0:18:14.000,0:18:18.640
+okay um so we have a couple of echoes here  
+
+0:18:20.400,0:18:27.520
+and most of them seem to be say 
+some here um all of them as this  
+
+0:18:27.520,0:18:32.480
+histogram dispatcher which is a bit annoying in 
+numpy that it gives the histogram dispatcher here  
+
+0:18:33.680,0:18:40.240
+but all of these are that um we give too many 
+keyword arguments somewhere um or something like  
+
+0:18:40.240,0:18:48.160
+that anyway the test histogram 2d kind of makes 
+sense we never touched any histogram 2s function  
+
+0:18:48.160,0:18:55.840
+2d function so we have to check that out but 
+let me start looking at the first error maybe
+
+0:18:57.120,0:18:59.920
+so okay this is already histogram 2d 2d so  
+
+0:19:01.200,0:19:05.520
+what i should do is i should check out 
+histogram 2d and see what's going on there  
+
+0:19:06.480,0:19:10.640
+and since i'm not sure it's not in the same 
+file i think because i searched for normed
+
+0:19:20.480,0:19:23.840
+i will do this again
+
+0:19:25.040,0:19:32.000
+okay so histogram 2d also uses the non-keyword 
+argument in the density keyword argument  
+
+0:19:33.520,0:19:38.400
+and it does so by calling histogram dd internally  
+
+0:19:39.280,0:19:51.840
+and the way it is defined in two dim 
+base so it's not defined in the same file
+
+0:19:52.880,0:19:58.000
+to the two dim base histogram to be oops
+
+0:20:00.160,0:20:02.400
+okay so we need to do the same change here
+
+0:20:04.880,0:20:06.560
+normed becomes density
+
+0:20:09.040,0:20:14.800
+there's the dispatcher so we do the 
+same thing here normed comes density
+
+0:20:18.160,0:20:20.720
+then we should delete all the normed stuff here
+
+0:20:32.320,0:20:33.840
+now this is
+
+0:20:37.040,0:20:40.720
+yeah that is okay you can just replace that
+
+0:20:43.440,0:20:45.040
+okay and here we pass
+
+0:20:47.760,0:20:54.160
+density by position rather than 
+the normed suppose we could also  
+
+0:20:54.160,0:20:58.320
+pass by keyword nowadays python used to 
+be a bit slower with keyword arguments  
+
+0:20:58.320,0:21:02.400
+but i think it's now so quick that it 
+shouldn't matter much so this fixes the  
+
+0:21:03.280,0:21:15.840
+2 dim base um i rerun the test suite for now to see 
+if that actually fixed all or most of the errors
+
+0:21:29.520,0:21:36.720
+no more normed here no more normed here good 
+at some point i should also check the general  
+
+0:21:36.720,0:21:43.840
+documentation but i think i will defer that and 
+see um after we have a PR then check again then
+
+0:21:58.640,0:22:11.840
+any more questions while we're 
+waiting for the test to run
+
+0:22:18.480,0:22:25.840
+should probably just run the specific test 
+that failed that way it wouldn't take this long  
+
+0:22:27.040,0:22:31.360
+the problem is that gathering the, finding all 
+the test itself is already pretty slow right now  
+
+0:22:32.560,0:22:39.840
+okay there we go
+
+0:22:52.000,0:22:53.840
+uh
+
+0:23:14.720,0:23:18.640
+okay down to two failures that's 
+good then the tv announced that  
+
+0:23:18.640,0:23:27.760
+yeah that should fail density normed redundancy also 
+should fail this is also in test histogram.pi  
+
+0:23:27.760,0:23:35.840
+but we already edited that so let's see normed should
+simply alias as a density argument you know what
+
+0:23:41.520,0:23:42.240
+yeah everywhere
+
+0:23:44.880,0:23:49.840
+i will also do this i don't know if 
+it's worthwhile but let's do this first
+
+0:24:12.640,0:24:16.960
+let's just fail see that it 
+fails cannot specify both  
+
+0:24:16.960,0:24:19.520
+that really is completely unnecessary as a test
+
+0:24:21.760,0:24:32.320
+so we can delete that
+
+0:24:32.320,0:24:33.760
+let's check that i got it right
+
+0:24:37.600,0:24:46.080
+so this is um i just deleted the function here 
+telling pi test to run only the histogram dd tests  
+
+0:24:46.080,0:24:52.320
+and all of them pass so this is good 
+um i could check the whole diff now  
+
+0:24:54.160,0:24:59.840
+but let's should probably have done 
+that before time let's make a branch
+
+0:25:01.440,0:25:09.120
+i have another question. so the tests that you just 
+added the the removed tests right um sorry if you  
+
+0:25:09.120,0:25:13.440
+mentioned this earlier but would that kind of test 
+have to go through its own deprecation cycle at  
+
+0:25:13.440,0:25:19.840
+this point because i imagine at some point you 
+wouldn't necessarily need that there. What do  
+
+0:25:19.840,0:25:25.040
+you mean with going through its own deprecation 
+sector? well basically like at some point in the  
+
+0:25:25.040,0:25:30.560
+code base would you want to remove this test?
+just like eventually when normed is just not  
+
+0:25:31.280,0:25:41.840
+even. Yeah yeah i mean honestly i'm not 
+even sure that it's useful right now
+
+0:25:42.800,0:25:49.040
+i mean yeah you're right it's not the normed
+keyword argument obviously doesn't exist so
+
+0:25:54.640,0:25:58.720
+yeah he has a point i think 
+technically this could be removed  
+
+0:25:58.720,0:26:02.720
+maybe we should just remove the test honestly 
+i mean i could make a comment that it could be  
+
+0:26:02.720,0:26:09.200
+removed but let's let's just remove the tests. 
+um it might it's nice i suppose to check once  
+
+0:26:09.200,0:26:12.960
+just for yourself that you can know that 
+it's been removed right. the sanity check  
+
+0:26:14.880,0:26:20.800
+the sanity check yeah the sanity check is 
+always good but uh really it doesn't really  
+
+0:26:20.800,0:26:24.960
+make sense. We don't it's not like we test every 
+possible keyword argument that doesn't exist
+
+0:26:27.040,0:26:32.240
+okay so i think i just created a 
+branch way. too many branches here
+
+0:26:34.880,0:26:40.080
+we have this commit messages we usually 
+do like deprecate uh deprecations with DEP 
+
+0:26:41.680,0:26:51.840
+it's not a big thing but
+
+0:27:17.840,0:27:23.440
+so the one thing that and um in theory the 
+density behaves a tiny bit different than  
+
+0:27:23.440,0:27:27.920
+the normed keyword argument but i think i will 
+just ignore that for now because it's just too  
+
+0:27:28.800,0:27:36.800
+um too obscure to worry about too much because 
+if if someone would pass the non-bi position  
+
+0:27:36.800,0:27:43.120
+and then miss the deprecation warning then now 
+they could get the correct behavior suddenly  
+
+0:27:43.120,0:27:51.280
+instead of the old bad behavior so i think 
+arguably we can glance it over okay so i committed
+
+0:27:53.600,0:27:54.000
+and
+
+0:27:56.560,0:27:57.120
+push this
+
+0:28:00.080,0:28:01.840
+and open the pull request
+
+0:28:09.600,0:28:18.400
+oh no okay let's just edit here for now so i 
+have now done all the coil changes hopefully  
+
+0:28:18.400,0:28:22.880
+the tests of the tests here should run hopefully 
+pass online i mean there's always some chance that  
+
+0:28:23.440,0:28:28.080
+uh something didn't show up locally because i 
+only didn't run the full test suit or something  
+
+0:28:28.080,0:28:32.560
+so it's always possible that there's uh some 
+complaint here or i might just have linting  
+
+0:28:32.560,0:28:38.960
+test might fail and then warrant a small look if i 
+should change some code some code style um but one  
+
+0:28:38.960,0:28:43.520
+thing that is still missing and that is part of 
+only deprecation is that deprecations should have  
+
+0:28:43.520,0:28:51.760
+a release note so someone might come along and 
+even put this tag on it "needs release" note so  
+
+0:28:51.760,0:28:58.880
+let's write a very brief release note for 
+this release notes in numpy are currently
+
+0:29:01.600,0:29:09.600
+the way we do it is we use town crier and they 
+live in doc release upcoming changes and there  
+
+0:29:09.600,0:29:15.920
+is a small readme here that explains how to 
+write a release note maybe i should open it here
+
+0:29:18.960,0:29:28.320
+doc release read me so it's a bit long but 
+basically we have different type of type of  
+
+0:29:29.040,0:29:35.760
+sections in the release notes and we have to pick 
+one of these so in this case that is an expired  
+
+0:29:35.760,0:29:43.680
+remove of a deprecated part of the api so it's 
+expired and then usually if we for expired once we  
+
+0:29:44.880,0:29:51.520
+use the bullet just a bullet point um and that's 
+it so the reason why i opened the pr first and  
+
+0:29:51.520,0:29:57.760
+then write the um right right the release note now 
+is that you actually need the pull request idea  
+
+0:29:57.760,0:30:02.080
+to create the release note so it's the 
+other way around doesn't really work  
+
+0:30:04.000,0:30:08.800
+so what we do is we create or look 
+up the pull request number up here
+
+0:30:12.960,0:30:16.000
+.expired.rst  
+
+0:30:17.360,0:30:35.840
+and then just a bullet point should be is 
+probably good enough and np.histogram
+
+0:30:43.040,0:30:45.600
+instagram dd and
+
+0:30:47.840,0:30:49.840
+dt
+
+0:31:05.200,0:31:08.960
+that's right use density
+
+0:31:12.960,0:31:17.840
+instead
+
+0:31:26.480,0:31:26.960
+first
+
+0:31:29.040,0:31:32.480
+so the the argument is different 
+it's the different behavior
+
+0:31:35.600,0:31:35.840
+for
+
+0:31:38.720,0:31:44.400
+uh what's it called so so if the bins are 
+different size if the bins don't have all  
+
+0:31:44.400,0:31:48.080
+the same size and then it behaves 
+differently if i remember right so
+
+0:31:50.800,0:31:53.040
+yeah let's just keep it for now
+
+0:31:56.080,0:31:59.760
+so just a brief release note 
+saying that the non-keyword argument
+
+0:31:59.760,0:32:05.840
+is removed from all the functions where previously 
+was and that density should be used instead
+
+0:32:11.040,0:32:13.840
+let's add that
+
+0:32:20.800,0:32:27.840
+so
+
+0:32:28.560,0:32:38.000
+and push okay and and basically we now have 
+a pull request um that is probably good to  
+
+0:32:38.000,0:32:43.600
+go there might still be some discussion to or 
+something that i missed uh that the libber might  
+
+0:32:45.040,0:32:50.240
+find usually there is some follow-up just because 
+you forget something or because the libber is  
+
+0:32:50.240,0:32:56.480
+worried about uh just removing the normed the 
+replacing the normed with density with the broken so  
+
+0:32:56.480,0:33:04.400
+this is the broken behavior but i think in general 
+this is probably all that is needed in this case  
+
+0:33:06.000,0:33:10.720
+there's always a chance that more tests so in this 
+case there were very few tests that failed very  
+
+0:33:10.720,0:33:23.840
+few new tests that we had to add which is none 
+um but this is the typical process to do removing
+
+0:33:25.440,0:33:31.200
+do you have any questions about this and i suppose 
+since it's pretty late we should probably just cut  
+
+0:33:31.200,0:33:37.600
+it and not go too much further um i was thinking 
+about showing some c code deprecations i could  
+
+0:33:37.600,0:33:43.760
+have a briefly show how the deprecation looks 
+in c code not maybe go through with it but just  
+
+0:33:43.760,0:33:51.840
+how so how the deprecations in c code look like 
+and how the code changes that would look like
+
+0:33:55.040,0:34:02.160
+well perhaps we could open up a floor for 
+questions so far and then if we don't have  
+
+0:34:02.720,0:34:14.000
+many we could move to the next topic sounds 
+good i hope it wasn't way too quick um but
+
+0:34:16.800,0:34:22.320
+to update the issue tracker right for 
+the deprecations we have a tracking issue  
+
+0:34:24.160,0:34:30.640
+it's one one yeah one one five two one 
+um it has this task and deprecation  
+
+0:34:30.640,0:34:33.840
+labels if you want to search 
+for it there are a couple of  
+
+0:34:34.400,0:34:39.680
+deprecations here that are outdated or just 
+probably need a bit of thought so if you run  
+
+0:34:39.680,0:34:45.440
+over you look at some and and get stuck and i'm 
+not sure just post a comment because i think  
+
+0:34:47.440,0:34:53.120
+unfortunately fairly often in numpy there are 
+tricky situations where it's a bit tricky to  
+
+0:34:53.120,0:35:02.240
+know exactly how to how to proceed um and the best 
+thing is just to ask and see if one of us knows
+
+0:35:02.240,0:35:07.680
+like i had i had um looked at this one 
+before and and this one was half done  
+
+0:35:08.640,0:35:12.880
+and then i realized that in insert there's 
+still a future warning but actually i'm not  
+
+0:35:12.880,0:35:18.400
+sure how the future behavior should look like 
+on first side so i skipped that one for today
+
+0:35:24.400,0:35:25.840
+any more questions for sebastian
+
+0:35:28.800,0:35:33.680
+and just uh keep in mind you are welcome to 
+post your questions in the Hack MD document  
+
+0:35:33.680,0:35:40.320
+that i shared or directly in the chat and i'll 
+just copy it to the document just we are trying  
+
+0:35:40.320,0:35:46.240
+to keep track of the questions as well so maybe 
+we could enhance our documentation if needed
+
+0:35:51.680,0:35:54.320
+it sounds like no questions for sebastian  
+
+0:35:55.200,0:35:58.960
+we have about 15 more minutes do you 
+think you have enough time  
+
+0:35:58.960,0:36:05.680
+to work on this c code deprecation. What i will 
+do is not work through all of it i think but just  
+
+0:36:05.680,0:36:14.240
+show um how it looks like typically in c code in 
+this issue we also have a c code deprecation  
+
+0:36:21.840,0:36:24.240
+okay maybe i'll just pick one at random  
+
+0:36:25.680,0:36:30.880
+because i'm not like i had i had picked one 
+out but it's not actually listed here so um
+
+0:36:33.360,0:36:39.360
+oh wait let me go let me go back to that so one 
+one thing that this the histogram deprecation did  
+
+0:36:39.360,0:36:49.920
+not have that a lot of especially the c ones 
+actually do have is that in the numpy core  
+
+0:36:50.560,0:36:57.920
+tests test deprecations we have a huge 
+amount of deprecation beside this  
+
+0:36:57.920,0:37:06.080
+fire that is half for historical reasons and 
+half because if you do a deprecation in c  
+
+0:37:06.080,0:37:10.240
+can be either warnings or they can be raised in 
+an hour so you have to check both the error path  
+
+0:37:10.800,0:37:15.760
+and the warning path to make sure that 
+both work fine uh so so in that case  
+
+0:37:15.760,0:37:20.800
+that this deprecation test is kind of useful 
+that's half the reason why we have this file
+
+0:37:23.680,0:37:24.080
+and
+
+0:37:32.560,0:37:39.840
+okay i will just pick one on random um 
+unfortunately let me pick one with the nice
+
+0:37:46.240,0:37:49.840
+invalid date i have no idea 
+what this does so it's perfect  
+
+0:37:51.680,0:37:56.880
+embedded data so this apparently deprecates
+
+0:38:00.480,0:38:05.200
+from file from string and they should 
+they give a deprecation warning  
+
+0:38:06.320,0:38:17.840
+when the file is too short or something like 
+that um and oops i closed my terminal okay
+
+0:38:19.200,0:38:23.200
+so the way i would go about here now is not 
+necessarily try to know where things are  
+
+0:38:24.240,0:38:30.560
+but i just use git grep git grep is just get 
+and search for the error message because more  
+
+0:38:30.560,0:38:35.360
+often than not that works it doesn't always 
+work if the message is broken or something  
+
+0:38:35.360,0:38:40.160
+okay so this is in multi-array ctors.c 
+we could have also searched for  
+
+0:38:41.200,0:38:51.600
+from file and went through from there so 
+what's in source multi arrays ctors.c and  
+
+0:38:51.600,0:38:56.160
+then let's search for it deprecations
+so this is how most deprecations in  
+
+0:38:57.680,0:39:04.400
+c look like we have a deprecation macro uh 
+deprecate macro that we use and just the text  
+
+0:39:05.520,0:39:11.200
+if it returns smaller null that zero smaller 
+zero that then than ever was raised and we have  
+
+0:39:11.200,0:39:16.640
+to do a normal error handling which is a go 
+to fail in many cases at least or return null
+
+0:39:20.320,0:39:23.760
+and otherwise a warning was raised 
+and things just continue normally  
+
+0:39:24.400,0:39:30.400
+so what we would do is in this 
+case we would replace this  
+
+0:39:31.040,0:39:41.840
+deprecate with the value error it actually 
+says here right this will be a value error so
+
+0:39:42.400,0:39:46.480
+so either an error is already 
+raised or you can just start for now
+
+0:39:50.560,0:39:58.160
+set string um so if you are 
+familiar with the python c api  
+
+0:39:58.160,0:40:04.720
+this makes sense to you if not then uh this might 
+be very confusing but basically this is the way  
+
+0:40:05.440,0:40:13.280
+you raise or set an error which is the same as 
+the raise keyword argument in um in python itself  
+
+0:40:13.280,0:40:16.480
+we raise a type error this is 
+PyExc_TypeError and then we do
+
+0:40:19.280,0:40:23.840
+we can actually just steal this probably
+
+0:40:32.000,0:40:37.840
+string or file could not be 
+read to its end due to unmatched data  
+
+0:40:39.040,0:40:45.680
+and then this is an error so you also have to 
+do error handling here we don't need it sorry
+
+0:40:48.640,0:40:52.160
+so this is
+
+0:40:52.160,0:40:57.120
+this is a python this is an error so we always 
+have to go to the error path previously uh it  
+
+0:40:57.120,0:41:02.560
+was a deprecation the deprecation can either raise 
+a warning and continue normally or raise an error  
+
+0:41:02.560,0:41:10.000
+and then you have this if and both branches now we 
+just have to go to fare which we don't even need
+
+0:41:17.280,0:41:18.800
+oh there is a PY error that occured here
+
+0:41:24.560,0:41:28.720
+this works i feel this could probably be cleaned 
+up a little bit down here but that doesn't matter  
+
+0:41:28.720,0:41:33.840
+much so this should actually already work um 
+and if we want to we could run the test suite
+
+0:41:34.720,0:41:36.400
+now it would have to recompile right
+
+0:41:46.080,0:41:50.960
+but it's pretty quick to come back if it's just 
+one file if it's some header files deep down then  
+
+0:41:50.960,0:41:54.560
+it can take a longer time to recompile 
+if it's just one file it's very quick
+
+0:41:57.680,0:42:04.000
+so in this case uh we will definitely have to 
+modify the test deprecations because all of this  
+
+0:42:04.000,0:42:10.320
+is now not useful anymore and replace that 
+with extra error was because in this case the  
+
+0:42:10.320,0:42:14.720
+error is an interesting error and not a missing 
+keyword argument where we don't have to create a  
+
+0:42:15.760,0:42:20.640
+test file but maybe since we have only 10 
+minutes left and maybe you want to chat a  
+
+0:42:20.640,0:42:25.360
+bit we should just cut at this point 
+um the rest of the process i think  
+
+0:42:26.080,0:42:33.760
+and this would hopefully if i got everything right 
+here and aside from thinking if we can improve the  
+
+0:42:33.760,0:42:39.440
+error message would just be the same as we did in 
+the histogram code since and it would also be just  
+
+0:42:39.440,0:42:43.840
+on mostly python code hopefully 
+only python code for this time  
+
+0:42:45.280,0:42:52.080
+so maybe i stopped sharing my screen unless 
+there are some questions about the c api about
+
+0:42:54.160,0:42:54.720
+other things
+
+0:42:57.760,0:43:02.640
+the c api can be pretty overwhelming and then 
+things like reference counting getting that  
+
+0:43:02.640,0:43:08.000
+right is tricky but reviewers will help out 
+if you get stuck with that it's not a problem  
+
+0:43:08.960,0:43:13.040
+you can just open it here 
+and see what we say and find
+
+0:43:15.440,0:43:17.600
+good thanks everyone um  
+
+0:43:18.560,0:43:23.040
+it's the best thing thank you thank you so 
+much for spending your valuable time with us  
+
+0:43:23.040,0:43:30.000
+and showing the ropes i will stop the recording 
+now and we'll open up the floor for questions
+
