@@ -1,6 +1,6 @@
 # NumPy Team Summit 
 
-(Mildly reformatted version of google docs used during the meeting.)
+(Mildly reformatted version of Google Docs used during the meeting.)
 
 **Date: 2022-07-12**
 
@@ -17,7 +17,7 @@ Passcode: 001068
 | Time | Topic | Attendees |
 |------|-------|-----------|
 | 10am CDT/3pm UTC | SIMD working session | Ralf, Sayed, Ganesh, Raghuveer, Matti, Sebastian, Brigitta, Melissa, Inessa |
-| 11 am CDT/4 pm UTC | State of NumPy: review of the roadmap, [reflection on sustainability](https://docs.google.com/spreadsheets/d/1L56Pb4rz4mfxYaCCCg7nE4WX0AYAd_wNK0idDa2rKGY) | Inessa, Sebastian, Ralf, Chuck, Sayed, Ganesh, Raghuveer, Matti, Brigitta, Melissa, Simon Cross |
+| 11 am CDT/4 pm UTC | State of NumPy: review of the roadmap | Inessa, Sebastian, Ralf, Chuck, Sayed, Ganesh, Raghuveer, Matti, Brigitta, Melissa, Simon Cross |
 
 
 ### Notes on SIMD session
@@ -113,7 +113,7 @@ Maybe add a bit of context on what is in this roadmap (e.g., why no timelines, l
 4. Need to come up with and outline for the main user guide 
 
 
-**User Experience:**
+**User experience:**
 1. Typing: small update, but in great shape
 2. Platform support: we need to formalize this into tiers like PEP 11 and declare what architectures are in which tier, and establish a process for changing support.
 3. Clean up NumPy namespaces! `numpy`, fft/random/linalg/ma/array_api + lib.<module-name>. (e.g., `np.lib.bitwise`). New submodules should be complete / developed outside of NumPy. 
