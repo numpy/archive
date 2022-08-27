@@ -1,4 +1,4 @@
-### Transcript of [Maintaining NumPy: Deprecations :: Sebastian Berg](https://www.youtube.com/watch?v=DjiC4-8c5f0)
+Transcript of Maintaining NumPy: Deprecations :: Sebastian Berg (https://www.youtube.com/watch?v=DjiC4-8c5f0)
 
 0:00:03.920,0:00:09.120
 Welcome, welcome, everyone! My name is 
