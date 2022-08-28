@@ -1,0 +1,4054 @@
+0:00:05.279,0:00:10.080
+Excelente... okay. Bem, Inessa fez
+
+0:00:08.480,0:00:12.480
+uma breve apresentação das pessoas
+
+0:00:10.080,0:00:14.559
+que estão participando mas eu
+
+0:00:12.480,0:00:17.199
+goastaria que eles se apresentassem
+
+0:00:14.559,0:00:18.960
+rapidamente
+
+0:00:17.199,0:00:22.000
+dissessem algumas palavras sobre
+
+0:00:18.960,0:00:24.320
+como iniciaram com o open source ou NumPy
+
+0:00:22.000,0:00:26.240
+o que preferirem. Talvez possamos começar
+
+0:00:24.320,0:00:28.880
+com o Sebastian?
+
+0:00:26.240,0:00:31.359
+Claro! Olá, pessoal. Eu sou Sebastian.
+
+0:00:28.880,0:00:33.600
+No momento eu trabalho na
+
+0:00:31.359,0:00:35.680
+uc berkeley
+
+0:00:33.600,0:00:38.000
+no instituto berkeley para ciência de dados
+
+0:00:35.680,0:00:40.800
+com NumPy especificamente
+
+0:00:38.000,0:00:42.480
+e eu comecei uma década atrás eu acho
+
+0:00:40.800,0:00:44.640
+quando eu estava na graduação eu comecei
+
+0:00:42.480,0:00:47.280
+a usar o NumPy nos trabalhos do curso
+
+0:00:44.640,0:00:49.200
+bem antes de ele ser tão robusto como é hoje
+
+0:00:47.280,0:00:51.680
+e comecei respondendo perguntas na
+
+0:00:49.200,0:00:53.600
+mailing list e em algum momento eu passei a
+
+0:00:51.680,0:00:56.640
+resolver bugs e aos poucos eu
+
+0:00:53.600,0:00:58.879
+me tornei um mantenedor, então meu caminho
+
+0:00:56.640,0:01:00.719
+no NumPy começou usuário, em seguida
+
+0:00:58.879,0:01:01.600
+alguém respondendo perguntas e
+
+0:01:00.719,0:01:04.400
+então
+
+0:01:01.600,0:01:05.920
+eventualmente eu comecei a resolver bugs
+
+0:01:04.400,0:01:08.479
+adicionar funcionalidades e
+
+0:01:05.920,0:01:08.479
+outras coisas.
+
+0:01:10.159,0:01:17.520
+Muito legal. Matti?
+
+0:01:13.760,0:01:19.280
+Olá, Eu sou Matti Picus. Eu também iniciei minha
+
+0:01:17.520,0:01:22.640
+jornada
+
+0:01:19.280,0:01:25.200
+no NumPy na bids junto com Sebastian
+
+0:01:22.640,0:01:27.439
+e Tyler que também falará sobre
+
+0:01:25.200,0:01:30.000
+a própria jornada...
+
+0:01:27.439,0:01:31.200
+Eu comecei minha jornada com open source algum
+
+0:01:30.000,0:01:33.600
+tempo atrás
+
+0:01:31.200,0:01:34.960
+como uma espécie de hobby
+
+0:01:33.600,0:01:37.759
+tal como...
+
+0:01:34.960,0:01:40.400
+como um consumidor open source
+
+0:01:37.759,0:01:41.759
+Eu estava auxiliando empresas a adotarem open source
+
+0:01:40.400,0:01:43.280
+em suas
+
+0:01:41.759,0:01:45.439
+stacks de software
+
+0:01:43.280,0:01:46.560
+lidando com fatores como licensas
+
+0:01:45.439,0:01:48.640
+e intregações
+
+0:01:46.560,0:01:52.079
+e eventualmente acabei envolvido não somente
+
+0:01:48.640,0:01:54.799
+com o ensino de Python para usuários de matlab
+
+0:01:52.079,0:01:58.159
+e como consertar bugs
+
+0:01:54.799,0:02:00.960
+por meio do projeto pypy p-y-p-y o qual é
+
+0:01:58.159,0:02:03.920
+uma implementação de Python com uma jit
+
+0:02:00.960,0:02:05.040
+e isso acabou me levando até o NumPy
+
+0:02:03.920,0:02:06.880
+e então quando
+
+0:02:05.040,0:02:09.280
+bids me ofereceu uma posição eu aceitei a
+
+0:02:06.880,0:02:10.879
+posição como mantenedor do NumPy em tempo integral
+
+0:02:09.280,0:02:12.959
+há aproximadamente quatro anos atrás
+
+0:02:10.879,0:02:16.400
+e tem sido muito proveitoso desde então
+
+0:02:12.959,0:02:16.400
+Estou trabalhando na quansite labs.
+
+0:02:17.200,0:02:20.720
+Muito legal, obrigada. Tyler?
+
+0:02:20.800,0:02:25.040
+Hey, Eu sou Tyler. Eu trabalho em Loas Alamos em
+
+0:02:23.760,0:02:27.760
+New Mexico.
+
+0:02:25.040,0:02:28.640
+Eu também comecei minha jornada no NumPy junto
+
+0:02:28.640,0:02:32.959
+do Matti e Sebastian na BIDS em berkeley
+
+0:02:31.040,0:02:34.959
+eu estava lá por um ano sabático
+
+0:02:32.959,0:02:36.480
+então o laboratório me permitiu ir
+
+0:02:34.959,0:02:37.360
+por algum tempo e isso foi bom.
+
+0:02:37.360,0:02:40.319
+Minha jornada opensource começou muito
+
+0:02:39.040,0:02:42.319
+tempo atrás
+
+0:02:40.319,0:02:44.560
+quando eu estava na graduação eu estava usando
+
+0:02:42.319,0:02:46.480
+bastante o SciPy e o NumPy e então eu
+
+0:02:44.560,0:02:49.599
+eventualmente comecei a contribuir
+
+0:02:46.480,0:02:51.120
+para o SciPy que foi quando Stefan
+
+0:02:49.599,0:02:53.760
+tinha
+
+0:02:51.120,0:02:55.920
+as concessões de opensource que foram
+
+0:02:53.760,0:02:59.200
+uma oportunidade que eu não poderia recusar....
+
+0:02:55.920,0:03:03.720
+trabalhar com opensource em tempo integral é
+
+0:02:59.200,0:03:03.720
+um privilégio então aquilo foi bom.
+
+0:03:04.000,0:03:08.720
+Sim, isso é muito legal. Eu não sabia exatamente
+
+0:03:06.400,0:03:10.000
+como vocês começaram então
+
+0:03:08.720,0:03:10.879
+é bem legal ficar sabendo.
+
+0:03:10.879,0:03:16.400
+okay, então
+
+0:03:12.319,0:03:18.959
+aqui está o tópico de hoje como vocês já devem
+
+0:03:16.400,0:03:22.319
+ter olhado a base de código do NumPy
+
+0:03:18.959,0:03:24.640
+ou até mesmo tentado começar a
+
+0:03:22.319,0:03:26.080
+entender como ele é feito você
+
+0:03:24.640,0:03:27.840
+pode perceber que é bastante complicado
+
+0:03:26.080,0:03:30.319
+existem porções de pequenos pedaços
+
+0:03:27.840,0:03:31.519
+porções de diferentes subpacotes para
+
+0:03:30.319,0:03:34.000
+NumPy
+
+0:03:31.519,0:03:36.560
+e uma das questões que nos fazem
+
+0:03:34.000,0:03:39.120
+frequentemente é
+
+0:03:36.560,0:03:41.040
+como que se encontra funções que
+
+0:03:39.120,0:03:43.599
+você está procurando vamos imaginar que
+
+0:03:41.040,0:03:46.640
+existe um defeito que alguém
+
+0:03:43.599,0:03:48.159
+reportou pelo issue tracker e
+
+0:03:46.640,0:03:50.560
+e você sabe que está em uma determinada
+
+0:03:48.159,0:03:52.239
+função mas não sabe onde a função
+
+0:03:50.560,0:03:54.400
+está então você busca
+
+0:03:52.239,0:03:58.319
+no código do NumPy e encontra uma porção de coisas
+
+0:03:54.400,0:03:59.360
+lá dentro escritas em C e em Python
+
+0:03:58.319,0:04:01.200
+então
+
+0:03:59.360,0:04:02.560
+é uma pergunta bem comum para pessoas
+
+0:04:01.200,0:04:05.200
+que...
+
+0:04:02.560,0:04:07.360
+não sabem por onde começar a procurar no código
+
+0:04:05.200,0:04:09.280
+pela função que precisa ser editada então eu
+
+0:04:07.360,0:04:11.840
+só queria uma ideia de vocês de como vocês
+
+0:04:09.280,0:04:13.599
+lidam com essa situação. Quais são as ferramentas.
+
+0:04:11.840,0:04:15.519
+Quais ferramentas para encontrar tais funções no
+
+0:04:13.599,0:04:17.680
+código? vocês conhecem a base de código de
+
+0:04:15.519,0:04:21.120
+olhos fechados? vocês sabem exatamanete onde
+
+0:04:17.680,0:04:23.759
+tudo está localizado? e por qual motivo
+
+0:04:21.120,0:04:25.759
+NumPy tem algumas funções em Python
+
+0:04:23.759,0:04:27.919
+e outras em C? então se vocês pudessem dar seu
+
+0:04:25.759,0:04:29.840
+ponto de vista sobre isso seria ótimo
+
+0:04:27.919,0:04:32.160
+e eu vou manter a mesma ordem
+
+0:04:29.840,0:04:34.560
+enão vamso começar com o Sebastian se for okay.
+
+0:04:32.160,0:04:36.479
+okay, então
+
+0:04:34.560,0:04:38.479
+no momento eu tenho bastante conhecimento sobre o código
+
+0:04:36.479,0:04:41.280
+de olhos fechados se eu vejo uma função eu
+
+0:04:38.479,0:04:44.080
+normalmente sei onde procurar porém
+
+0:04:41.280,0:04:46.000
+no começo eu usava git-grep
+
+0:04:44.080,0:04:47.680
+bastante e eu buscaria
+
+0:04:46.000,0:04:49.680
+pelo nome da função e então
+
+0:04:47.680,0:04:52.240
+o que você precisa saber é se
+
+0:04:49.680,0:04:53.680
+a função vai estar no IPython e
+
+0:04:52.240,0:04:55.680
+você deve se perguntar primeiro
+
+0:04:53.680,0:04:57.120
+antes de qualquer coisa por exemplo
+
+0:04:55.680,0:04:59.120
+se é uma função em Python e você vê o
+
+0:04:57.120,0:05:01.199
+código e percebe onde o código está
+
+0:04:59.120,0:05:04.160
+se o código está em uma função C isso
+
+0:05:01.199,0:05:06.240
+também significa que está no multi-array umath
+
+0:05:04.160,0:05:08.240
+onde está programado mais recentemente e então
+
+0:05:06.240,0:05:10.400
+você sabe que está em C e que você tem
+
+0:05:08.240,0:05:12.479
+que executar mais alguns passos para
+
+0:05:10.400,0:05:14.800
+encontrar a implementação
+
+0:05:12.479,0:05:16.720
+isso quer dizer que você vai ao arquivo C que
+
+0:05:14.800,0:05:18.560
+é multi-array.c o qual define
+
+0:05:16.720,0:05:20.160
+todas as funções na estrutura mais atual e então
+
+0:05:18.560,0:05:22.800
+você busca pelo nome da função em
+
+0:05:20.160,0:05:25.360
+Python e então você precisa buscar
+
+0:05:22.800,0:05:27.680
+por aquele e seguir com mais
+
+0:05:25.360,0:05:29.759
+alguns passos até encontrar a funcionalidade
+
+0:05:27.680,0:05:32.160
+principal pois é comum
+
+0:05:29.759,0:05:34.639
+que para qualquer função Python normalmente
+
+0:05:32.160,0:05:36.880
+na maioria das vezes existe também uma função C
+
+0:05:34.639,0:05:38.560
+que realmente implementa isto.
+
+0:05:36.880,0:05:41.039
+Existem mais alguns truques
+
+0:05:38.560,0:05:42.720
+como os nossos métodos ali
+
+0:05:41.039,0:05:45.600
+você tem que passar por diversos passos
+
+0:05:42.720,0:05:48.720
+até identificar onde estão localizados
+
+0:05:45.600,0:05:51.759
+mas de maneira geral este
+
+0:05:48.720,0:05:53.120
+é o caminho para encontrar uma funcionalidade
+
+0:05:51.759,0:05:54.880
+então existem algumas coisas como 
+
+0:05:53.120,0:05:57.600
+U-Funcs, as funções universais
+
+0:05:54.880,0:05:59.520
+a maioria das funções de matemática que também
+
+0:05:57.600,0:06:00.720
+acabam em um módulo
+
+0:05:59.520,0:06:02.400
+completamente diferente
+
+0:06:02.400,0:06:06.800
+então
+
+0:06:04.880,0:06:08.880
+sim isto é um pouco mais complicado de
+
+0:06:06.800,0:06:10.240
+identificar eu penso que se você fizer um grep 
+
+0:06:08.880,0:06:12.800
+pela função ou pelos nomes
+
+0:06:10.240,0:06:14.720
+você normalmente encontra alguma coisa
+
+0:06:12.800,0:06:17.120
+mas as vezes você tem que passar
+
+0:06:14.720,0:06:17.120
+por mais alguns passos.
+
+0:06:18.000,0:06:21.360
+Sim, é interessante saber que não é
+
+0:06:19.600,0:06:23.840
+é fácil para outras pessoas
+
+0:06:21.360,0:06:25.840
+também não é mesmo
+
+0:06:23.840,0:06:27.440
+claro que com o tempo você fica experiente
+
+0:06:25.840,0:06:29.440
+você acaba sabendo onde as coisas estão
+
+0:06:27.440,0:06:31.440
+no começo pode parecer um pouco assustador
+
+0:06:29.440,0:06:34.160
+e não tem problema algum em utilizar
+
+0:06:31.440,0:06:36.000
+grepping para buscas ou usar qualquer outra ferramenta
+
+0:06:34.160,0:06:37.919
+que você tenha em mãos para encontrar
+
+0:06:36.000,0:06:40.000
+a função e se não for o caso
+
+0:06:37.919,0:06:42.080
+pergunte um mantenedor e talvez alguém possa te ajudar
+
+0:06:40.000,0:06:44.479
+a encontrar o que procura...
+
+0:06:42.080,0:06:46.080
+Matti, você quer adicionar algo? Além disto, eu
+
+0:06:44.479,0:06:47.759
+queria saber se vocês podem
+
+0:06:46.080,0:06:50.400
+esclarecer o porquê
+
+0:06:47.759,0:06:52.880
+algumas funções são tão encadeadas que
+
+0:06:50.400,0:06:54.560
+acabam precisando um arquivo dentro de outro
+
+0:06:52.880,0:06:58.960
+e você precisa editar um arquivo para ver
+
+0:06:54.560,0:06:58.960
+efeitos em outro arquivo? 
+
+0:06:59.120,0:07:05.039
+Sim, eu vou concordar com o
+
+0:07:02.479,0:07:06.560
+Sebastian que o grep é seu amigo
+
+0:07:05.039,0:07:11.199
+e você deveria aprender
+
+0:07:06.560,0:07:11.199
+qualquer forma de grep que pode te ajudar
+
+0:07:11.680,0:07:15.680
+caso você esteja buscando por
+
+0:07:13.280,0:07:17.759
+uma mensagem de erro em particular
+
+0:07:15.680,0:07:19.039
+então faça o grep para o texto em específico
+
+0:07:17.759,0:07:21.360
+para a buscar pela mensagem
+
+0:07:19.039,0:07:22.639
+irá ser muito útil na base de código
+
+0:07:21.360,0:07:24.560
+se você estiver fazendo o grep por diversão ou se
+
+0:07:22.639,0:07:26.160
+você estiver buscando por uma função então
+
+0:07:24.560,0:07:29.120
+as coias podem ficar um pouco mais complicadas
+
+0:07:26.160,0:07:31.440
+e o...
+
+0:07:29.120,0:07:33.120
+bem o que a Melissa perguntou é o porquê acaba
+
+0:07:31.440,0:07:36.240
+sendo tão complicado
+
+0:07:33.120,0:07:38.160
+e a reposta é velocidade que NumPy foi
+
+0:07:36.240,0:07:41.039
+concebido 20 anos atrás
+
+0:07:38.160,0:07:42.800
+em uma tentativa de acelerar Python que é
+
+0:07:41.039,0:07:43.599
+uma linguagem interpretada
+
+0:07:42.800,0:07:45.759
+e
+
+0:07:43.599,0:07:48.400
+em Python é muito fácil
+
+0:07:45.759,0:07:49.840
+para...
+
+0:07:48.400,0:07:52.000
+vamos ver se eu consigo mostrar
+
+0:07:49.840,0:07:54.319
+um exemplo.
+
+0:07:52.000,0:07:57.120
+Eu posso mostrar algum código ao vivo. Tudo certo?
+
+0:07:54.319,0:07:59.840
+Claro, sim. Vamos ver se eu consigo compatilhar
+
+0:07:57.120,0:07:59.840
+a minha tela
+
+0:08:03.680,0:08:06.160
+este aqui
+
+0:08:07.440,0:08:11.800
+sim espero que possam ver isto.
+
+0:08:15.360,0:08:18.000
+Está legível?
+
+0:08:17.120,0:08:21.039
+Sim.
+
+0:08:18.000,0:08:23.199
+Bem, então...
+
+0:08:21.039,0:08:26.720
+Digamos que eu queira...
+
+0:08:23.199,0:08:29.360
+eu queira buscar por uma função em Python
+
+0:08:26.720,0:08:32.000
+e eu importo NumPy
+
+0:08:29.360,0:08:33.839
+como np
+
+0:08:32.000,0:08:37.360
+porque eu estou no diretório
+
+0:08:33.839,0:08:40.360
+este é um outro problema com NumPy
+
+0:08:41.440,0:08:44.640
+problemas com código ao vivo
+
+0:08:43.200,0:08:46.959
+em Python
+
+0:08:44.640,0:08:50.959
+import
+
+0:08:46.959,0:08:52.640
+NumPy as np e eu quero buscar onde está
+
+0:08:50.959,0:08:53.680
+NumPy ones
+
+0:08:52.640,0:08:55.360
+Digamos que
+
+0:08:53.680,0:08:57.440
+eu saiba que é uma função
+
+0:08:55.360,0:08:59.839
+e que é somente Python. Eu posso 
+
+0:08:57.440,0:09:02.480
+somente buscar pelo código onde o Python
+
+0:08:59.839,0:09:04.800
+está e então eu saberei onde o
+
+0:09:02.480,0:09:07.360
+package está e onde aquele código está e
+
+0:09:04.800,0:09:11.440
+em qual linha começa
+
+0:09:07.360,0:09:11.440
+e daí eu posso copiar e colar isto
+
+0:09:11.519,0:09:16.240
+e eu gosto do vim desculpe quem não gosta
+
+0:09:14.320,0:09:18.720
+porém
+
+0:09:16.240,0:09:21.200
+and I can go to line 149 and I see here
+e ir até a linha 149 e eu vejo aqui
+
+0:09:18.720,0:09:22.480
+a função ones então em python é
+
+0:09:21.200,0:09:24.560
+muito fácil
+
+0:09:22.480,0:09:26.480
+porém então o que você vê no final
+
+0:09:24.560,0:09:28.800
+dessa no final dessa
+
+0:09:26.480,0:09:29.519
+longa doc string vai até
+
+0:09:28.800,0:09:31.680
+é
+
+0:09:29.519,0:09:33.120
+não está chamando ones está
+
+0:09:31.680,0:09:35.839
+chamando vazio
+
+0:09:33.120,0:09:38.080
+então agora eu tenho que encontrar
+
+0:09:35.839,0:09:40.000
+ok, então começamos a entrar em um caminho
+
+0:09:38.080,0:09:42.240
+longo tentando encontrar funções e
+
+0:09:40.000,0:09:44.560
+eventualmente o que eu acabo descobrindo é que
+
+0:09:42.240,0:09:48.160
+não esxiste mais Pyhton e que acaba
+
+0:09:44.560,0:09:50.720
+sendo o C e que a razão
+
+0:09:48.160,0:09:52.959
+que isso vai até funções built-in 
+
+0:09:50.720,0:09:55.120
+o que você conseguiria via cli porquê
+
+0:09:52.959,0:09:55.839
+Python tenta ser rápido
+
+0:09:55.120,0:09:57.519
+então
+
+0:09:57.519,0:10:01.600
+esta é a resposta para a pergunta
+
+0:09:59.920,0:10:03.440
+onde
+
+0:10:01.600,0:10:04.480
+de
+
+0:10:03.440,0:10:06.240
+por
+
+0:10:04.480,0:10:08.320
+Por NumPy ser tão complicado porque nós tentamos
+
+0:10:06.240,0:10:10.959
+ser rápidos. Agora
+
+0:10:08.320,0:10:13.839
+NumPy possui essas coisas que são
+
+0:10:10.959,0:10:16.399
+até mesmo mais complicadas que são chamadas ufuncs
+
+0:10:13.839,0:10:18.160
+que significa se você tem um bloco de memória
+
+0:10:16.399,0:10:20.480
+e você quer fazer a mesma função
+
+0:10:18.160,0:10:22.240
+em cada posição na memória
+
+0:10:20.480,0:10:24.160
+então temos uma maneira muito rápida de
+
+0:10:22.240,0:10:27.040
+passar por isso mas é muito complicado 
+
+0:10:24.160,0:10:29.040
+encontrar a implementação então eu acho
+
+0:10:27.040,0:10:31.519
+que eu falei o suficiente mas eu só queria
+
+0:10:29.040,0:10:34.800
+pontuar uma forma que você pode
+
+0:10:31.519,0:10:37.360
+navegar pelas funções
+
+0:10:34.800,0:10:39.200
+caso as pessoas queiram eu posso continuar
+
+0:10:37.360,0:10:43.680
+explorando isso até que a atual
+
+0:10:39.200,0:10:43.680
+implementação do ones está.
+
+0:10:44.480,0:10:50.399
+Vou liberar o compartilhamento de tela.
+
+0:10:47.600,0:10:52.240
+Sim, caso você possa
+
+0:10:50.399,0:10:54.000
+compartilhar um link no chat talvez
+
+0:10:52.240,0:10:56.959
+as pessoas possam explorar mais isto.
+
+0:10:54.000,0:10:58.640
+Perfeito. No github existe o
+
+0:10:56.959,0:11:02.320
+o acesso para o link para a função. Eu
+
+0:10:58.640,0:11:04.640
+acho que sim é complicado mas como havia dito
+
+0:11:02.320,0:11:06.880
+que com experiência vai ficando
+
+0:11:04.640,0:11:09.040
+cada vez mais fácil e eu acho que a ideia é
+
+0:11:06.880,0:11:11.519
+você tem questões e você está cuidando de
+
+0:11:09.040,0:11:13.760
+um determinado issue e você não tem certeza se
+
+0:11:11.519,0:11:15.839
+o código para corrigir o issue
+
+0:11:13.760,0:11:17.760
+é em Python ou C
+
+0:11:15.839,0:11:20.240
+faça uma pergunta no issue e nós ficaremos
+
+0:11:17.760,0:11:21.120
+muito contentes em responder e talvez te ajudar
+
+0:11:20.240,0:11:23.600
+a encontrar
+
+0:11:21.120,0:11:25.839
+o arquivo que você está tentando editar.
+
+0:11:23.600,0:11:28.000
+Okay,
+
+0:11:25.839,0:11:30.880
+I can just
+Eu posso
+
+0:11:28.000,0:11:32.160
+mostrar mais algumas coisas. Se for possível
+
+0:11:30.880,0:11:34.079
+tudo certo?
+
+0:11:32.160,0:11:35.760
+vou compartilhar minha tela mais uma vez
+
+0:11:34.079,0:11:37.120
+pois eu encontrei o que estava procurando com
+
+0:11:35.760,0:11:38.000
+com o empty
+
+0:11:37.120,0:11:39.680
+então
+
+0:11:38.000,0:11:42.320
+when I
+quando eu
+
+0:11:39.680,0:11:44.000
+procurei pelo código do empty
+
+0:11:42.320,0:11:47.279
+eu voltei e tentei encontrar onde o código
+
+0:11:44.000,0:11:49.760
+do empty está e o que eu vejo é que desculpe mas
+
+0:11:47.279,0:11:51.519
+não existe tal coisa como NumPy empty
+
+0:11:49.760,0:11:53.760
+então agora
+
+0:11:51.519,0:11:55.760
+nós sabemos que basicamente NumPy empty foi
+
+0:11:53.760,0:11:58.000
+implementado em C
+
+0:11:55.760,0:12:01.760
+e para que eu encontre a implementação
+
+0:11:58.000,0:12:04.160
+eu tenho que fazer o git grep
+
+0:12:01.760,0:12:06.720
+e basicamente o que eu faço é fazer o grep em
+
+0:12:04.160,0:12:09.680
+um arquivo o qual é
+
+0:12:06.720,0:12:11.839
+porque NumPy empty vem do NumPy
+
+0:12:09.680,0:12:11.839
+certo
+
+0:12:12.639,0:12:17.320
+Eu sei que todos
+
+0:12:15.040,0:12:20.000
+todos os atributos do NumPy
+
+0:12:17.320,0:12:21.920
+numpy.algumacoisa estarão em algum
+
+0:12:20.000,0:12:24.160
+arquivo chamado numpy
+
+0:12:21.920,0:12:27.600
+core
+
+0:12:24.160,0:12:27.600
+oh, precisa voltar no numpy
+
+0:12:27.839,0:12:29.839
+grep
+
+0:12:28.639,0:12:30.800
+numpy
+
+0:12:29.839,0:12:32.639
+core
+
+0:12:30.800,0:12:34.480
+source
+
+0:12:32.639,0:12:35.440
+multi array
+
+0:12:34.480,0:12:38.100
+multi
+
+0:12:35.440,0:12:41.120
+array
+
+0:12:41.120,0:12:44.710
+enfrentando problemas com o código ao vivo
+
+0:12:42.959,0:12:47.279
+multiarray module.c
+
+0:12:47.279,0:12:51.000
+grep para empty
+
+0:12:52.399,0:12:58.720
+certo e aqui eu vejo que empty é
+
+0:12:56.000,0:13:01.200
+a função array empty
+
+0:12:58.720,0:13:03.920
+então se eu
+
+0:13:01.200,0:13:05.760
+chego no lugar que é a conexão entre
+
+0:13:03.920,0:13:07.360
+o nome em Python e
+
+0:13:05.760,0:13:09.519
+e o nome em C
+
+0:13:07.360,0:13:14.240
+que é este aquivo
+
+0:13:09.519,0:13:14.240
+a fonte no NumPy do multiarray module.c 
+
+0:13:14.560,0:13:19.279
+por favor me avisa se estiver tomando muito tempo Melissa
+
+0:13:16.639,0:13:23.519
+você pode me interromper.
+
+0:13:19.279,0:13:25.360
+Claro, podemos parar por agora
+
+0:13:23.519,0:13:27.360
+e retomar mais tarde.
+
+0:13:25.360,0:13:29.200
+Okay. Podemos ver se existem outras
+
+0:13:27.360,0:13:30.560
+perguntas de quem está assistindo
+
+0:13:29.200,0:13:32.320
+se você tem qualquer questão sobre
+
+0:13:30.560,0:13:34.079
+o que Matti fez
+
+0:13:32.320,0:13:36.160
+tem uma pergunta interessanre que eu
+
+0:13:34.079,0:13:38.240
+quero pergutnar e talvez você ou Tyler
+
+0:13:36.160,0:13:40.800
+ou mais alguém possa ajudar a responder
+
+0:13:38.240,0:13:43.680
+digamos que você está buscando por overload de um operator
+
+0:13:40.800,0:13:47.959
+tal como plus minus ou os brackets
+
+0:13:43.680,0:13:47.959
+para indexação ou esse tipo de coisa?
+
+0:13:49.440,0:13:56.160
+Alguma resposta Tyler ou Matti
+
+0:13:52.959,0:13:56.160
+oh, eu falei tanto
+
+0:13:56.800,0:14:01.199
+Eu normalmente falo bastante me desculpem.
+
+0:13:59.839,0:14:03.279
+Bem, eu não estou tão certo sobre o overload de
+
+0:14:01.199,0:14:05.680
+operator eu estou habiturado com uma estratégia similar com
+
+0:14:03.279,0:14:08.079
+o que Matty e Sebastian fizeram com o grep
+
+0:14:05.680,0:14:09.600
+eu poderia mencionar que para buscar em C versus
+
+0:14:08.079,0:14:11.440
+buscar em Python eu normalmente faço algo menos sofisticado
+
+0:14:09.600,0:14:13.279
+Eu irei somente buscar se isto tem def na frente
+
+0:14:11.440,0:14:14.720
+e daí você faz um bom grep e se não existe
+
+0:14:13.279,0:14:17.600
+def na frente do nome é provável
+
+0:14:14.720,0:14:21.120
+que não esteja em Python
+
+0:14:17.600,0:14:23.920
+algo menos sofisticado como isto.
+
+0:14:21.120,0:14:26.480
+Bem, eu faço esse processo do def com frequência
+
+0:14:23.920,0:14:28.079
+Eu fico contente de saber qua mais pessoas trabalham assim.
+
+0:14:26.480,0:14:30.320
+Matti você sabe sobre o overload de operator
+
+0:14:28.079,0:14:31.680
+ou você tem alguma dica
+
+0:14:30.320,0:14:34.560
+ou talvez o Sebastian.
+
+0:14:31.680,0:14:36.399
+Claro, em relação aos operators
+
+0:14:34.560,0:14:39.120
+nós temos o git-grep eu acho que pode
+
+0:14:36.399,0:14:40.800
+funcionar bem na maioria dos casos
+
+0:14:39.120,0:14:44.160
+o problema é que os operadores possuem uma
+
+0:14:40.800,0:14:46.880
+api específica em C Python como eles estão
+
+0:14:44.160,0:14:49.360
+definidos que é um método dev
+
+0:14:46.880,0:14:52.560
+e este método def fica contido no
+
+0:14:49.360,0:14:55.680
+do arquivo de nome methods.c então
+
+0:14:52.560,0:14:55.680
+este é o lugar onde você precisa olhar
+
+0:14:57.440,0:14:59.839
+então
+
+0:14:59.920,0:15:03.279
+espere
+
+0:15:01.600,0:15:04.399
+então existem dois tipos diferentes de coisas
+
+0:15:03.279,0:15:07.600
+métodos
+
+0:15:04.399,0:15:10.160
+e operadores são ainda mais
+
+0:15:07.600,0:15:12.880
+complicados de algum modo porque em C
+
+0:15:10.160,0:15:14.720
+Python se você sabe a api Python C
+
+0:15:12.880,0:15:17.440
+eles são definidos
+
+0:15:14.720,0:15:18.320
+através de slots e alguns desses slots
+
+0:15:18.320,0:15:23.040
+ficam diretamente no objeto
+
+0:15:20.480,0:15:26.160
+se você vai até o array object.c você encontra
+
+0:15:23.040,0:15:27.760
+ou você você tem que ir até arquivos específicos
+
+0:15:27.760,0:15:32.320
+logo estes são um pouco mais complicados
+
+0:15:29.759,0:15:34.639
+de modo que se você não sabe
+
+0:15:32.320,0:15:36.240
+como a api C funciona isto pode acabar sendo
+
+0:15:34.639,0:15:37.600
+mais complicado de encontrar onde
+
+0:15:36.240,0:15:39.600
+eles estão
+
+0:15:37.600,0:15:41.680
+então array objects é isto e então array object
+
+0:15:39.600,0:15:43.440
+atualmente se aproxima
+
+0:15:41.680,0:15:46.959
+dos
+
+0:15:43.440,0:15:46.959
+slots em diferentes lugares 
+
+0:15:47.279,0:15:52.079
+Eu poderia tentar
+
+0:15:49.360,0:15:52.079
+compartilhar talvez.
+
+0:15:52.240,0:15:55.720
+Claro, siga em frente.
+
+0:15:57.440,0:15:59.839
+okay
+
+0:16:03.279,0:16:06.480
+vamos ver se está tudo certo com a tela
+
+0:16:07.360,0:16:12.959
+está aqui no final - você poderia
+
+0:16:09.759,0:16:16.079
+aumentar um pouco a fonte, Sebastian?
+
+0:16:12.959,0:16:17.920
+oops no final do link que você mandou
+
+0:16:16.079,0:16:20.480
+o que você vê é esse tipo PyArray
+
+0:16:17.920,0:16:23.519
+isto é a definição do array
+
+0:16:20.480,0:16:25.680
+object em Python em C Python e C para
+
+0:16:23.519,0:16:28.959
+Python e o que você vê aqui é tudo sobre
+
+0:16:25.680,0:16:30.720
+esse tp_as_number e tp_as_sequence e
+
+0:16:28.959,0:16:33.360
+estas coisas escondem
+
+0:16:30.720,0:16:36.000
+todos os operados específicos ou
+
+0:16:33.360,0:16:37.440
+a maioria dos operadores tp_as_number incluem todas as coisas
+
+0:16:36.000,0:16:38.639
+como adicionar
+
+0:16:38.639,0:16:42.639
+tp_as_mapping incluinfo mixing
+
+0:16:41.519,0:16:45.759
+tp_as_sequence
+
+0:16:42.639,0:16:47.759
+incluindo todas
+
+0:16:45.759,0:16:49.279
+as coisas como no operados e todos esses
+
+0:16:47.759,0:16:51.120
+operadores então basicamente você tem
+
+0:16:49.279,0:16:53.440
+que seguir onde estes estão definidos e
+
+0:16:51.120,0:16:55.759
+estes estão eu acho todos definidos em um
+
+0:16:53.440,0:16:57.839
+arquivo chamado number.c sequence.c
+
+0:16:55.759,0:16:59.680
+mapping.c porém
+
+0:16:57.839,0:17:02.079
+as vezes isto está por toda parte
+
+0:16:59.680,0:17:03.839
+então você teria fazer o grep mais uma vez e seguir
+
+0:17:02.079,0:17:06.400
+passo após passo
+
+0:17:03.839,0:17:08.400
+seguindo até o final.
+
+0:17:06.400,0:17:10.959
+Claro, um lembrete para as pessoas
+
+0:17:08.400,0:17:13.360
+não ficarem assustadas isto que vimos é
+
+0:17:10.959,0:17:15.280
+a parte mais difícil e não é necessário
+
+0:17:13.360,0:17:17.439
+fazer isto toda vez tem bastante coisa a ser
+
+0:17:15.280,0:17:19.600
+feita em Python bem como tem muita coisa
+
+0:17:17.439,0:17:21.520
+a ser feita em outras coisas porém
+
+0:17:19.600,0:17:24.160
+isto é a parte mais complicada
+
+0:17:21.520,0:17:26.480
+então por favor não corra
+
+0:17:24.160,0:17:28.240
+se isto for muito complicado 
+
+0:17:26.480,0:17:30.240
+caso seja muito complicado porém você não tem que
+
+0:17:28.240,0:17:33.760
+mexer com isto toda vez que faz alguma coisa
+
+0:17:30.240,0:17:36.400
+no NumPy só uma pequena observação.
+
+0:17:33.760,0:17:38.240
+Legal, a próxima pergunta é "quais são
+
+0:17:36.400,0:17:41.840
+suas técnicas favoritas de debugging?". Vocês usam
+
+0:17:38.240,0:17:43.679
+gb vocês usam pydb
+
+0:17:41.840,0:17:46.799
+quais ferramentas vocês usam vocês possuem alguma
+
+0:17:43.679,0:17:49.360
+técnica para debugging para encontrar
+
+0:17:46.799,0:17:51.679
+ou verificar issues
+
+0:17:49.360,0:17:53.600
+reportados no github coisas deste tipo
+
+0:17:51.679,0:17:56.080
+possuem alguma dica?
+
+0:17:53.600,0:17:58.559
+Sebastian.
+
+0:17:56.080,0:18:02.240
+Desculpe, eu estava tentando liberar a minha tela
+
+0:17:58.559,0:18:02.240
+e não está funcionando
+
+0:18:02.559,0:18:07.600
+para debugging honestamente eu uso o print
+
+0:18:04.640,0:18:09.360
+com frequência porém quando acaba
+
+0:18:07.600,0:18:11.919
+ficando mais complicado você pode
+
+0:18:09.360,0:18:13.679
+usar gbd e fazer os passos necessários
+
+0:18:11.919,0:18:16.320
+com a sua ide favorita você pode provavelmente
+
+0:18:13.679,0:18:19.360
+fazer isso pela própria ide
+
+0:18:16.320,0:18:21.600
+através da interface
+
+0:18:19.360,0:18:24.000
+de terminal do GDB para código em C...
+
+0:18:21.600,0:18:25.280
+Eu tenho uma preferência em usar Valgrind
+
+0:18:24.000,0:18:27.440
+mas acaba servindo mais
+
+0:18:25.280,0:18:30.960
+para erros específicos de
+
+0:18:27.440,0:18:30.960
+memória e para tipos de errors.
+
+0:18:34.559,0:18:39.360
+Bem, Matti você usa alguma
+
+0:18:36.960,0:18:41.440
+ferramente - Eu também gosto
+
+0:18:39.360,0:18:44.160
+de trabalhar com printing
+
+0:18:41.440,0:18:45.440
+na verdade a coisa mais complicada em
+
+0:18:44.160,0:18:47.360
+realmente
+
+0:18:45.440,0:18:48.320
+identificar um desses bugs e trabalhar
+
+0:18:47.360,0:18:50.720
+neles
+
+0:18:48.320,0:18:53.039
+é conseguir um bom cenário de reprodução
+
+0:18:50.720,0:18:55.280
+e daí se você está preenchendo uma issue
+
+0:18:53.039,0:18:57.679
+a melhor coisa que você fazer por nós é
+
+0:18:55.280,0:18:58.640
+fornecer um cenário de reprodução muito claro
+
+0:18:57.679,0:19:00.720
+isso significa
+
+0:18:58.640,0:19:04.320
+dizer a versão do Python usada
+
+0:19:00.720,0:19:06.000
+no sistema aqui está meu sistema operacional aqui está
+
+0:19:04.320,0:19:08.640
+minha versão do NumPy
+
+0:19:06.000,0:19:11.600
+e aqui está o que eu fiz do passo
+
+0:19:08.640,0:19:15.200
+zero não começando do passo 13 mas do
+
+0:19:11.600,0:19:16.720
+passo zero para reproduzir o bug e que
+
+0:19:15.200,0:19:19.200
+pode nos ser muito útil
+
+0:19:16.720,0:19:20.880
+caso contrário a gente acaba precisando
+
+0:19:19.200,0:19:22.320
+adivinhar
+
+0:19:20.880,0:19:24.320
+a partir do erro
+
+0:19:22.320,0:19:26.080
+do output do erro se foi windows
+
+0:19:24.320,0:19:27.440
+ou se foi linux pelo jeito
+
+0:19:26.080,0:19:29.600
+que as slashes estão no output
+
+0:19:27.440,0:19:31.200
+porém isso torna tudo muito
+
+0:19:29.600,0:19:34.080
+difícil pra gente em um cenário de adivinhar
+
+0:19:31.200,0:19:35.919
+o que realmente está acontecendo
+
+0:19:34.080,0:19:37.200
+então no momento que existe uma maneira
+
+0:19:35.919,0:19:38.400
+clara de reproduzir o problema
+
+0:19:37.200,0:19:40.320
+rodando o Python
+
+0:19:38.400,0:19:42.960
+do zero
+
+0:19:40.320,0:19:45.360
+até o bug ocorrer
+
+0:19:42.960,0:19:49.600
+então existem várias técnicas e 
+
+0:19:45.360,0:19:51.280
+GDB é bom e usar printing também (GDB)
+
+0:19:49.600,0:19:52.640
+e normalmente
+
+0:19:51.280,0:19:55.200
+bem as vezes
+
+0:19:52.640,0:19:57.840
+você pode olhar para o código e perceber
+
+0:19:55.200,0:19:58.799
+"ah, sim, isto é o que está acontecendo 
+
+0:19:57.840,0:20:01.039
+aqui
+
+0:19:58.799,0:20:02.880
+deixa eu só verificar fazendo printing ou
+
+0:20:01.039,0:20:05.039
+ou usando GDB".
+
+0:20:02.880,0:20:08.799
+A partir do momento que você tem um cenário claro
+
+0:20:05.039,0:20:08.799
+você consegue verificar o que está realmente acontecendo.
+
+0:20:09.600,0:20:13.360
+Bem colocado, sim.
+
+0:20:11.679,0:20:16.799
+Tyler, você tem algum
+
+0:20:13.360,0:20:18.880
+método preferido, ferramenta ou dica?
+
+0:20:16.799,0:20:20.720
+Eu acabo fazendo print também eu
+
+0:20:18.880,0:20:22.720
+mencionaria que alguns bugs no NumPy são
+
+0:20:20.720,0:20:24.240
+complicados ao ponto de eu adiconar tantos prints em
+
+0:20:22.720,0:20:26.559
+Python que acabo perdendo
+
+0:20:24.240,0:20:28.640
+o controle sobre o fluxo e neste caso
+
+0:20:26.559,0:20:30.000
+que eu tenho que deixar claro
+
+0:20:28.640,0:20:31.600
+os pontos onde coloquei os prints e cada
+
+0:20:30.000,0:20:33.600
+um acaba saindo primeiro e normalmente eu
+
+0:20:31.600,0:20:35.360
+eu tenho algo como print a print b print c e eu
+
+0:20:33.600,0:20:36.799
+preciso entender o controle do fluxo daí
+
+0:20:35.360,0:20:38.960
+eu realmente preciso rotular os meus prints
+
+0:20:36.799,0:20:40.080
+pois vai ficando difícil de
+
+0:20:38.960,0:20:41.840
+manter o controle do fluxo
+
+0:20:40.080,0:20:43.360
+isto acontece as vezes.
+
+0:20:43.360,0:20:48.320
+Cara, eu uso print aqui e ali
+
+0:20:46.080,0:20:52.159
+aqui 1 e aqui 2
+
+0:20:48.320,0:20:54.880
+uso nas entradas das funções e nas saídas.
+
+0:20:52.159,0:20:56.720
+Sim, é muito bom ouvir vocês falaram
+
+0:20:54.880,0:20:59.120
+sobre isto porque eu não sei como 
+
+0:20:56.720,0:21:01.440
+usar debuggers para Python e C
+
+0:20:59.120,0:21:04.240
+e aquelas ferramentas complicadas então
+
+0:21:01.440,0:21:05.520
+sim eu também uso bastante o print
+
+0:21:04.240,0:21:07.200
+bom saber
+
+0:21:05.520,0:21:08.799
+Certo, então
+
+0:21:07.200,0:21:11.600
+- mais uma coisa quando usando GBD se você
+
+0:21:08.799,0:21:12.720
+fizer printing em C você pode
+
+0:21:11.600,0:21:15.520
+fazer dunder file (dunder __init__)
+
+0:21:12.720,0:21:17.280
+para saber onde você está
+
+0:21:15.520,0:21:19.360
+porém infelizmente o Python não tem isto
+
+0:21:17.280,0:21:22.240
+e você acaba fazendo algo parecido eu mesmo
+
+0:21:19.360,0:21:23.280
+faço isto quando uso printing
+
+0:21:22.240,0:21:26.159
+no Python
+
+0:21:23.280,0:21:28.559
+e informar ao Python algo como
+
+0:21:26.159,0:21:31.120
+print no nome do arquivo e a linha
+
+0:21:28.559,0:21:33.039
+uma estimativa da linha ou o número
+
+0:21:31.120,0:21:35.840
+próximo da linha de modo que eu
+
+0:21:33.039,0:21:35.840
+entenda o que está acontecendo -
+
+0:21:36.000,0:21:40.559
+Sim, isso é interessante
+
+0:21:37.919,0:21:42.960
+e Tyler comentou sobre algo parecido
+
+0:21:40.559,0:21:44.720
+que acaba se relacionando com a próxima pergunta
+
+0:21:42.960,0:21:46.799
+"vocês têm alguma técnica
+
+0:21:44.720,0:21:49.520
+própria de documentação?" como manter
+
+0:21:46.799,0:21:51.360
+anotações enquanto você está fazendo o debugging ou se
+
+0:21:49.520,0:21:54.000
+você mantem notas dos commits que vocês estão
+
+0:21:51.360,0:21:55.919
+fazendo qual branch 
+
+0:21:54.000,0:21:58.000
+estão investigando
+
+0:21:55.919,0:22:00.480
+como vocês controlam tudo isto quando
+
+0:21:58.000,0:22:02.720
+fazendo várias coisas ao mesmo tempo e
+
+0:22:00.480,0:22:04.400
+ou até mesmo para um bug só para verificar
+
+0:22:02.720,0:22:06.960
+os passos que vocês executara, e como
+
+0:22:04.400,0:22:08.799
+o fizeram e como vocês
+
+0:22:06.960,0:22:11.840
+coletam tudo isto porque eu posso falar
+
+0:22:08.799,0:22:14.000
+que eu uso um planner
+
+0:22:11.840,0:22:16.559
+eu preciso de papel e caneta eu não consigo
+
+0:22:14.000,0:22:18.720
+tomar essa notas online porque eu realmente
+
+0:22:16.559,0:22:20.559
+preciso escrever enquanto penso e daí
+
+0:22:18.720,0:22:22.799
+eu escrevo os passos que executei e o que eu fiz
+
+0:22:20.559,0:22:24.640
+e as conclusões que eu tirei e eu
+
+0:22:22.799,0:22:27.840
+não sei o que vocês pensam sobre isto.
+
+0:22:24.640,0:22:27.840
+Como é que vocês fazem?
+
+0:22:28.480,0:22:31.919
+Talvez começando com o Sebastian outra vez.
+
+0:22:33.280,0:22:35.919
+Desculpe.
+
+0:22:36.240,0:22:39.760
+Sim, eu acho que as vezes é necessário
+
+0:22:38.640,0:22:41.120
+tentar
+
+0:22:39.760,0:22:42.799
+documentar ou pelo menos manter
+
+0:22:41.120,0:22:44.880
+algumas anotações de onde as coisas vieram
+
+0:22:42.799,0:22:45.520
+para onde coisas vão pois alguns dos bus
+
+0:22:44.880,0:22:48.240
+são
+
+0:22:45.520,0:22:49.840
+super complicados ou tão encobertos ou
+
+0:22:48.240,0:22:51.440
+você nem sabe de onde eles vieram e
+
+0:22:49.840,0:22:52.840
+incialmente você tem que reasteá-los
+
+0:22:51.440,0:22:54.400
+antes de qualquer coisa.
+
+0:22:52.840,0:22:56.559
+Logo,
+
+0:22:54.400,0:22:58.240
+isto pode intimidar e então começar
+
+0:22:56.559,0:23:01.360
+escrevendo parece ser um bom plano
+
+0:22:58.240,0:23:01.360
+uma boa maneira de lidar com isto.
+
+0:23:02.159,0:23:06.320
+Sim, isto é interessante. Matti, você
+
+0:23:03.760,0:23:08.960
+tem alguma dica?
+
+0:23:06.320,0:23:11.840
+Eu uso o github issue
+
+0:23:08.960,0:23:13.200
+tracker como minhas anotações
+
+0:23:13.200,0:23:17.919
+daí eu trabalho em blocos de aproximadamente
+
+0:23:16.000,0:23:20.000
+uma hora e mais ou menos depois de uma hora
+
+0:23:17.919,0:23:22.240
+eu provavelmente deveria desistir e tentar outra coisa
+
+0:23:20.000,0:23:23.760
+por algum tempo
+
+0:23:22.240,0:23:25.919
+pelo menos ao trabalhar com bugs e quando
+
+0:23:23.760,0:23:27.300
+estou trabalhando em uma coisa
+
+0:23:25.919,0:23:30.369
+em uma
+
+0:23:30.960,0:23:34.320
+em uma coisa nova então as vezes eu
+
+0:23:33.039,0:23:36.080
+trabalho por algumas horas porém se
+
+0:23:34.320,0:23:39.520
+estou tentando me aprofundar em um debug isto
+
+0:23:36.080,0:23:42.159
+pode tomar uma ou duas horas
+
+0:23:39.520,0:23:43.840
+e então eu preciso dar uma volta ou fazer uma pausa
+
+0:23:42.159,0:23:45.440
+e aí eu tento resumir tudo
+
+0:23:43.840,0:23:48.240
+em uma issue no github
+
+0:23:45.440,0:23:49.600
+daí é um pouco desconfortável para algumas
+
+0:23:48.240,0:23:53.760
+pessoas que estão lendo ou aquelas que
+
+0:23:49.600,0:23:56.159
+estão encarando o problema de frente nas issues
+
+0:23:53.760,0:23:58.320
+e pull requests
+
+0:23:56.159,0:24:00.000
+em projetos menores pode acabar sendo
+
+0:23:58.320,0:24:01.840
+um pouco mais fácil porque são menos pessoas
+
+0:24:00.000,0:24:03.360
+prestando atenção
+
+0:24:03.360,0:24:07.679
+você precisa estar confortável com a
+
+0:24:05.120,0:24:08.960
+exposição de erros bobos no
+
+0:24:07.679,0:24:10.240
+github
+
+0:24:10.240,0:24:15.440
+sim mas normalmente as pessoas são
+
+0:24:13.360,0:24:19.200
+indulgentes e eu tento tento usar
+
+0:24:15.440,0:24:21.919
+os detalhes no github que 
+
+0:24:19.200,0:24:24.320
+podem comprimir as informações através
+
+0:24:21.919,0:24:26.240
+das bracket
+
+0:24:24.320,0:24:28.240
+e daí os detalhes aparecem quando você expande
+
+0:24:26.240,0:24:30.559
+deste modo pessoas não recebem aquilo nos e-mails
+
+0:24:28.240,0:24:32.080
+elas não recebem este e-mail com milhares de linhas
+
+0:24:30.559,0:24:34.720
+só recebem os detalhes e podem expandir
+
+0:24:32.080,0:24:36.320
+caso queiram
+
+0:24:34.720,0:24:38.400
+uma outra vantagem de anotas coisas
+
+0:24:36.320,0:24:40.480
+no github issues caso você não se importe em
+
+0:24:38.400,0:24:42.080
+compartilhar erros bobos
+
+0:24:40.480,0:24:44.640
+é que
+
+0:24:42.080,0:24:47.120
+pode acontecer de alguém se
+
+0:24:44.640,0:24:49.039
+untar à issue e dizer "olha, sim, isto
+
+0:24:47.120,0:24:51.919
+me lembra de algma coisa que eu vi cinco anos atrás
+
+0:24:49.039,0:24:51.919
+em algum lugar qualquer".
+
+0:24:54.480,0:24:59.200
+Sim, é engraçado e eu
+
+0:24:56.880,0:25:01.200
+voltar nisto ao final mas
+
+0:24:59.200,0:25:04.720
+eu ainda quero saber a perspectiva do Tyler
+
+0:25:01.200,0:25:04.720
+em como manter controle das coisas
+
+0:25:06.240,0:25:11.120
+sim talvez eu compartilhe um pouco minha tela
+
+0:25:07.919,0:25:13.520
+se eu conseguir fazer isso
+
+0:25:11.120,0:25:17.880
+vamos ver desktop 
+
+0:25:13.520,0:25:17.880
+caramba talvez isto não seja possível
+
+0:25:30.080,0:25:33.440
+talvez se eu tirar uma screenshot eu tenho
+
+0:25:31.840,0:25:34.880
+certeza que...
+
+0:25:33.440,0:25:36.000
+É poss;ivel colocar imagens no chat? É possível
+
+0:25:34.880,0:25:38.240
+fazer isto?
+
+0:25:36.000,0:25:40.320
+Eu acho que não mas talvez você possa
+
+0:25:38.240,0:25:42.559
+compartilhar links para um imgur ou
+
+0:25:40.320,0:25:44.640
+algo go gênero.
+
+0:25:42.559,0:25:47.919
+Eu uso um aplicativo chamado workflowy que é
+
+0:25:44.640,0:25:49.120
+um conjunto de tópicos que ajuda a 
+
+0:25:47.919,0:25:50.559
+manter controle do nome da branch e todos os
+
+0:25:49.120,0:25:52.000
+comentários e outras coisas que são
+
+0:25:50.559,0:25:53.440
+um pouco mais verbosas para
+
+0:25:53.440,0:25:59.440
+uma issue do github ou pull request
+
+0:25:56.480,0:26:02.240
+e eu mantenho coisas como
+
+0:25:59.440,0:26:03.919
+comentários e os principais desenvolvedores.
+
+0:26:02.240,0:26:05.360
+Eu acho que Eric não está ativo no momento porém
+
+0:26:03.919,0:26:06.880
+ele sempre tinha reviews bem detalhadas e
+
+0:26:05.360,0:26:08.559
+eu mantinha todo tipo de anotação sobre o que
+
+0:26:06.880,0:26:10.280
+ele dizia e então como lidar com isto e
+
+0:26:08.559,0:26:13.279
+coisas do tipo.
+
+0:26:13.279,0:26:17.039
+Sim, isto é um bom ponto e eu faço
+
+0:26:15.120,0:26:19.120
+isto as vezes quando existem links
+
+0:26:17.039,0:26:21.279
+relacionados ou diferentes tipos de issues
+
+0:26:19.120,0:26:22.880
+que estão relacionados e eu faço isso no notion.
+
+0:26:21.279,0:26:24.480
+Eu uso o notion que é muito similar ao
+
+0:26:22.880,0:26:25.440
+workflowy na minha opinião
+
+0:26:25.440,0:26:29.919
+para manter controle dessas issues e links e
+
+0:26:28.480,0:26:32.080
+coisas diferentes que eu quero verificar ou
+
+0:26:29.919,0:26:34.960
+talvez documentar
+
+0:26:32.080,0:26:36.559
+ou até mesmo para coisas específicas
+
+0:26:34.960,0:26:39.200
+ou coisas que eu fiz e quero manter
+
+0:26:36.559,0:26:40.480
+anotado no papel então isso é
+
+0:26:39.200,0:26:43.039
+interessante.
+
+0:26:40.480,0:26:45.039
+Certo, eu quero voltar um pouco em
+
+0:26:43.039,0:26:48.159
+algo que o Matti estava falando
+
+0:26:45.039,0:26:50.799
+eu faço isto eu uso as issues trackers do github
+
+0:26:48.159,0:26:54.080
+para publicar tudo
+
+0:26:50.799,0:26:56.320
+e você tem que se acostumar ou não
+
+0:26:54.080,0:26:58.240
+se importar que as pessoas estão vendo suas perguntas ou
+
+0:26:56.320,0:27:00.720
+você sabe que as coisas que você está publicando
+
+0:26:58.240,0:27:02.640
+daí eu queria perguntar a vocês o que
+
+0:27:00.720,0:27:04.559
+acham. O que acontece se um
+
+0:27:02.640,0:27:06.640
+contribuidor comete um equívoco
+
+0:27:04.559,0:27:08.240
+ao submeter uma pull request
+
+0:27:06.640,0:27:09.840
+ou talvez ocorra um equívoco ao
+
+0:27:08.240,0:27:12.159
+verificar alguma coisa ou quando
+
+0:27:09.840,0:27:15.840
+estão abrindo uma issues? Como vocês veem
+
+0:27:12.159,0:27:18.080
+o processo de revisão de uma pull request?
+
+0:27:15.840,0:27:20.159
+e eu acho que este ponto é interessante
+
+0:27:18.080,0:27:22.640
+porque muitas pessoas talvez se sintam
+
+0:27:20.159,0:27:24.480
+intimidadas para publicar todo o trabalho
+
+0:27:22.640,0:27:26.240
+e todo o aspecto de estar público e
+
+0:27:24.480,0:27:29.039
+você tem que postar isso no github e vai
+
+0:27:26.240,0:27:30.960
+vai ficar lá para sempre e se você se equivocar e
+
+0:27:29.039,0:27:32.480
+seus futuros empregadores talvez encontrem aquilo
+
+0:27:30.960,0:27:34.159
+e vejam que você cometeu um equívoco 10 anos
+
+0:27:32.480,0:27:38.799
+atrás ao comentar em alguma coisas no
+
+0:27:34.159,0:27:38.799
+NumPy daí qual a opinião de vocês.
+
+0:27:42.159,0:27:46.399
+Talvez Sebastian esteja de volta ou
+
+0:27:43.760,0:27:49.840
+se o Matti pude começar.
+
+0:27:46.399,0:27:51.919
+Oh, você voltou então pode seguir.
+
+0:27:49.840,0:27:54.559
+Equívocos acontecem. São normais.
+
+0:27:51.919,0:27:56.240
+Equívocos fazem parte do processo e
+
+0:27:54.559,0:27:58.240
+eu penso que temos que incuí-los no
+
+0:27:56.240,0:27:59.440
+todo e a review existe
+
+0:27:58.240,0:28:00.880
+por causa disto, certo
+
+0:28:00.880,0:28:05.360
+daí
+
+0:28:03.200,0:28:08.000
+eu acho que você não tem que
+
+0:28:05.360,0:28:10.080
+ficar com medo de cometer equívocos pois
+
+0:28:08.000,0:28:12.880
+no final precisamos de um bom produto
+
+0:28:10.080,0:28:15.440
+sem erros muito grandes daí
+
+0:28:12.880,0:28:17.200
+quanto mais cuidadoso você for ao
+
+0:28:15.440,0:28:19.200
+fazer isto mais fácil vai ficar para
+
+0:28:17.200,0:28:21.200
+revisar e mais fácil de esclarecer
+
+0:28:19.200,0:28:23.600
+que o resultados é bom e que nós
+
+0:28:21.200,0:28:25.840
+podemos carregar para dentro do NumPy.
+
+0:28:23.600,0:28:28.000
+Mas isto não precisa ser assim desde o começo
+
+0:28:25.840,0:28:30.240
+algumas destas coisas podem acontecer mais tarde
+
+0:28:28.000,0:28:34.159
+bem no final e em algum momento
+
+0:28:30.240,0:28:34.159
+isto tem que acontecer
+
+0:28:35.200,0:28:38.399
+e
+
+0:28:36.480,0:28:40.559
+eu não sei se eu sinto
+
+0:28:38.399,0:28:42.320
+tanta exposição ao trabalhar publicamente
+
+0:28:40.559,0:28:44.000
+e
+
+0:28:42.320,0:28:45.039
+todo este processo ser público na verdade
+
+0:28:44.000,0:28:47.200
+ajuda
+
+0:28:45.039,0:28:48.799
+a entender que todo o processo oé cuidadoso
+
+0:28:47.200,0:28:51.440
+e que passamos por todos os passos
+
+0:28:48.799,0:28:53.200
+para fazer algumas coisa e que se
+
+0:28:51.440,0:28:55.919
+existem erros eles precisam ser corrigidos
+
+0:28:53.200,0:28:58.159
+fica fácil saber que houve todo um cuidado
+
+0:28:55.919,0:28:59.919
+na execução do processo daí se
+
+0:28:58.159,0:29:02.480
+você conseguiu corrigir uma
+
+0:28:59.919,0:29:04.159
+pull request toda que eu não sei
+
+0:29:02.480,0:29:05.120
+quanto esforço foi necessário para chegar naquele ponto
+
+0:29:04.159,0:29:06.960
+isto é
+
+0:29:05.120,0:29:11.720
+sim minha abordagem para estes casos é
+
+0:29:06.960,0:29:11.720
+que aconteceu é normal e está tudo bem.
+
+0:29:13.600,0:29:17.919
+Matti? - Eu concordo totalmente com o Sebastian.
+
+0:29:17.919,0:29:21.440
+EU acho que...
+
+0:29:21.440,0:29:26.320
+existe uma técnica
+
+0:29:23.200,0:29:28.880
+que podemos aplicar nas pull requests
+
+0:29:26.320,0:29:30.799
+pelo menos se não bloquearem os próprios repositórios
+
+0:29:28.880,0:29:32.799
+daí se você não tem ideia e está travado e não faz
+
+0:29:30.799,0:29:35.039
+ideia do que está fazendo e meio que
+
+0:29:32.799,0:29:35.840
+gostaria de dar algum parecer
+
+0:29:35.039,0:29:37.440
+então
+
+0:29:35.840,0:29:38.720
+normalmente a gente tenta te ajudar a trabalhar
+
+0:29:37.440,0:29:40.640
+através disto porque pelo menos você
+
+0:29:38.720,0:29:44.000
+deu o primeiro passo tentando
+
+0:29:40.640,0:29:46.000
+que já é um grande passo pois
+
+0:29:44.000,0:29:46.960
+não é fácil dar esse primeiro passo
+
+0:29:46.000,0:29:48.960
+entende
+
+0:29:46.960,0:29:52.640
+"aqui está minha ideia
+
+0:29:48.960,0:29:54.399
+o que vocês acham?" nós tentamos não
+
+0:29:52.640,0:29:57.440
+ser muito cruéis com as pessoas
+
+0:29:54.399,0:30:00.159
+e com as revisões. Nós gostamos de auxilair
+
+0:29:57.440,0:30:02.960
+as pessoas e no pior caso
+
+0:30:00.159,0:30:05.760
+nós podemos nos envolver e
+
+0:30:02.960,0:30:07.760
+refazer a pull request.
+
+0:30:05.760,0:30:09.600
+Eu acho que o mais problemático é uma
+
+0:30:07.760,0:30:11.600
+pull request que muda algo que não
+
+0:30:09.600,0:30:13.120
+queremos que seja alterado
+
+0:30:11.600,0:30:16.640
+e daí as coisas ficam um pouco complicadas
+
+0:30:13.120,0:30:20.240
+porque alguém investiu horas fazendo aquilo
+
+0:30:16.640,0:30:21.840
+e no final nós basicamente falamos que
+
+0:30:20.240,0:30:24.640
+a opção de se fazer daquele jeito existe mas
+
+0:30:21.840,0:30:26.320
+nós não vamos aceitar no NumPy
+
+0:30:24.640,0:30:28.240
+no momento por muitas
+
+0:30:26.320,0:30:30.480
+razões variadas
+
+0:30:28.240,0:30:32.799
+hoje mesmo teve ume pull request
+
+
+0:30:30.480,0:30:36.159
+que nós precisamos rejeitar e
+
+0:30:32.799,0:30:37.360
+fechar e nós rejeitamos e então
+
+0:30:36.159,0:30:39.840
+o autor
+
+0:30:37.360,0:30:41.360
+se sentiu um pouco chateado
+
+0:30:39.840,0:30:43.840
+e a encerrou com um pouco de insatisfação
+
+0:30:41.360,0:30:44.640
+e isto é um pouco mais difícil de compreender
+
+0:30:43.840,0:30:46.480
+pois
+
+0:30:44.640,0:30:48.399
+isto machuca porque alguém investiu um
+
+0:30:46.480,0:30:51.279
+esforço nesse tipo de coisa e então
+
+0:30:48.399,0:30:52.240
+alguém diz "não, desculpe, não podemos aceitar"
+
+0:30:52.240,0:30:56.240
+não é fácil
+
+0:30:54.720,0:30:57.760
+de processar e não tem outro jeito
+
+0:30:56.240,0:30:59.440
+de fazer isto pois não vai entrar
+
+0:30:57.760,0:31:01.679
+não podemos aceitar
+
+0:30:59.440,0:31:01.679
+daí
+
+0:31:01.840,0:31:04.640
+qual era a pergunta?
+
+0:31:03.360,0:31:06.559
+Desculpe.
+
+0:31:04.640,0:31:08.320
+Não, você tem razão. Eu acho que
+
+0:31:06.559,0:31:09.760
+a pergunta é o que acontece se
+
+0:31:08.320,0:31:12.080
+o contribuidor comete um engano ao
+
+0:31:09.760,0:31:14.080
+submeter uma pull request ou
+
+0:31:12.080,0:31:15.840
+como você vê o processo de revisão e eu
+
+0:31:14.080,0:31:17.440
+acho important saber que
+
+0:31:15.840,0:31:19.200
+coisas assim acontecem
+
+0:31:17.440,0:31:21.840
+e talvez se a pull request acaba
+
+0:31:19.200,0:31:23.840
+rejeitada não significa
+
+0:31:21.840,0:31:26.000
+que não gostamos do seu trabalho
+
+0:31:23.840,0:31:28.080
+ou que não queremos você por perto
+
+0:31:26.000,0:31:30.640
+pode acontecer de só não ser o jeito mais apropriado de
+
+0:31:28.080,0:31:32.080
+de fazer uma tarefa em particular então
+
+0:31:30.640,0:31:34.559
+sempre tem espaço para melhorias e
+
+0:31:32.080,0:31:37.679
+comunicação e outras tentativas. Eu acho
+
+0:31:34.559,0:31:39.360
+que esse é o resultado final.
+
+0:31:37.679,0:31:41.600
+Tyler, você tem alguma coisa para adicionar
+
+0:31:39.360,0:31:41.600
+sobre isto?
+
+0:31:41.919,0:31:46.240
+Eu posso dizer que ficaria preocupado
+
+0:31:43.600,0:31:48.240
+se eu fizesse uma pull request que
+
+0:31:46.240,0:31:50.480
+fosse mais complicada que corrgir um typo por exemplo
+
+0:31:48.240,0:31:52.640
+e eu ficaria procupado se as pessoas não
+
+0:31:50.480,0:31:54.480
+encontrassem um problema nela eu digo
+
+0:31:52.640,0:31:57.120
+NumPy é bem complexo
+
+0:31:54.480,0:31:59.279
+sabe como é Matti, Sebastian, Stefan
+
+0:31:57.120,0:32:01.360
+Hoyer, Ralph , Gomers, Paulie e tantos outros
+
+0:31:59.279,0:32:02.799
+tantas pessoas muito inteligentes eu ficaria preocupado
+
+0:32:01.360,0:32:04.480
+se alguém não encorasse pelo menos
+
+0:32:02.799,0:32:07.039
+alguma coisa que pudesse ser melhorada se
+
+0:32:04.480,0:32:10.399
+eu fizesse uma pull request não-trivial
+
+0:32:07.039,0:32:12.480
+mais ou menos nessa linha, entende? Daí,
+
+0:32:10.399,0:32:14.880
+Sim, eu acho que é bom
+
+0:32:12.480,0:32:17.679
+quando as pessoas identificam coisas assim.
+
+0:32:14.880,0:32:19.600
+Sim, e pequenos ajustes e revisões são
+
+0:32:17.679,0:32:21.760
+completamente normais e é normal que
+
+0:32:19.600,0:32:24.559
+que você tenha um monte de comentários e um monte de
+
+0:32:21.760,0:32:27.360
+coisas para corrigir isto acontece na verdade
+
+0:32:24.559,0:32:30.799
+não é muito normal o que falaram no chat
+
+0:32:27.360,0:32:33.519
+como 139 comentários mas
+
+0:32:30.799,0:32:36.480
+ainda sim é possível, certo?
+
+0:32:33.519,0:32:38.880
+De qualquer forma, só fique atento
+
+0:32:36.480,0:32:40.880
+que isso é parte do processo
+
+0:32:38.880,0:32:43.440
+de revisão e parte do processo e só 
+
+0:32:40.880,0:32:44.880
+mostra que nos importamos muito com isto
+
+0:32:43.440,0:32:45.919
+e que buscamos sempre o melhor resultado
+
+0:32:44.880,0:32:49.120
+possível.
+
+0:32:45.919,0:32:51.120
+Portanto, esteja aberto a receber opiniões
+
+0:32:49.120,0:32:53.519
+também.
+
+0:32:51.120,0:32:55.679
+Legal. A próxima pergunta
+
+0:32:53.519,0:32:58.799
+que é até engraçada "qual parte da
+
+0:32:55.679,0:32:59.919
+base de código do NumPy precisa de mais melhorias
+
+0:32:58.799,0:33:01.200
+no seu
+
+0:32:59.919,0:33:03.440
+entendimento
+
+0:33:01.200,0:33:07.039
+e as melhores e piores partes
+
+0:33:03.440,0:33:07.750
+da base de código para vocês?"
+
+0:33:07.039,0:33:09.039
+Sebastian?
+
+0:33:09.039,0:33:13.279
+Bem, você diz sobre a base de código
+
+0:33:10.399,0:33:13.279
+ou revisão?
+
+0:33:14.720,0:33:18.000
+Francamente, não é fácil
+
+0:33:16.399,0:33:19.840
+dizer qual melhor ou pior parte
+
+0:33:18.000,0:33:22.080
+do NumPy.
+
+0:33:19.840,0:33:24.480
+Eu acho que a pior parte na minha opinião
+
+0:33:22.080,0:33:27.120
+são sempre as partes onde
+
+0:33:24.480,0:33:29.919
+as coisas vão crescendo ao longo do tempo e as vezes
+
+0:33:27.120,0:33:32.399
+elas compartilham um mesmo padrão
+
+0:33:29.919,0:33:33.919
+mas em diferente lugares no NumPy de modo
+
+0:33:32.399,0:33:36.640
+que não compartilham a mesma implementação
+
+0:33:33.919,0:33:38.799
+e daí você tem diferentes
+
+0:33:36.640,0:33:41.039
+coisas com algumas inconsistências 
+
+0:33:38.799,0:33:43.440
+levemente diferentes e
+
+0:33:41.039,0:33:44.960
+e você precisa ter em mente que
+
+0:33:43.440,0:33:46.159
+uma coisa é um pouco diferente de outra
+
+0:33:44.960,0:33:48.880
+ali e 
+
+0:33:46.159,0:33:53.440
+para mim não que a parte ruim
+
+0:33:48.880,0:33:54.320
+é algo muito pontual porém
+
+0:33:53.440,0:33:56.240
+quando
+
+0:33:54.320,0:33:57.760
+coisas são similares mas diferentes em
+
+0:33:56.240,0:33:59.440
+lugares diferentes na base de código
+
+0:33:57.760,0:34:02.240
+existem algumas coisas estranhas como os
+
+0:33:59.440,0:34:04.799
+NumPy scalars que são particularmente
+
+0:34:02.240,0:34:06.720
+bem esquisitos por terem um monte
+
+0:34:04.799,0:34:07.600
+de código e funcionalidade em comum com
+
+0:34:07.600,0:34:12.399
+o código normal de array
+
+0:34:09.599,0:34:14.079
+porém fazem isto do próprio jeito e poderiam
+
+0:34:12.399,0:34:16.560
+receber algumas simplicações e alinhamento
+
+0:34:14.079,0:34:18.240
+com o restante.
+
+0:34:16.560,0:34:20.399
+Boas observações, eu realmente aprecio boa parte
+
+0:34:18.240,0:34:22.079
+da base de código do NumPy nos dias de hoje do jeito que está
+
+0:34:20.399,0:34:24.639
+existe muito código muito bem estruturado
+
+0:34:22.079,0:34:25.919
+e código muito bom
+
+0:34:24.639,0:34:28.720
+pela base eu acho
+
+0:34:25.919,0:34:30.720
+que existe também um monte de código antigo que
+
+0:34:28.720,0:34:33.720
+poderia receber
+
+0:34:30.720,0:34:33.720
+melhorias.
+
+0:34:35.440,0:34:37.830
+Obrigada por ser legal em relação a isto,
+
+0:34:37.119,0:34:40.560
+Sebastian.
+
+0:34:37.830,0:34:42.320
+[Risadas]
+
+0:34:40.560,0:34:43.440
+Matti?
+
+0:34:42.320,0:34:46.800
+Bem,
+
+0:34:43.440,0:34:48.560
+Eu acho que as partes do NumPy
+
+0:34:48.560,0:34:53.760
+que eu não gosto tanto ou não gosto de revisar
+
+0:34:50.960,0:34:55.520
+os PR's ou as issues relacionadas
+
+0:34:53.760,0:34:58.320
+são
+
+0:34:55.520,0:35:00.000
+polynomials e
+
+0:34:58.320,0:35:02.240
+master arrays 
+
+0:35:00.000,0:35:05.839
+e as duas estão meio que atreladas
+
+0:35:02.240,0:35:06.720
+a coisas que não conversam
+
+0:35:05.839,0:35:08.800
+muito bem
+
+0:35:06.720,0:35:10.800
+master arrays possuem muitas issues
+
+0:35:08.800,0:35:12.400
+mas não recebem tanta atenção
+
+0:35:10.800,0:35:16.640
+seria bom se alguém cuidasse dessas coisas
+
+0:35:12.400,0:35:19.359
+como uma espécie de hobby
+
+0:35:16.640,0:35:21.280
+master arrays está basicamente em Python
+
+0:35:19.359,0:35:23.760
+com poucas partes em C
+
+0:35:21.280,0:35:25.760
+muitas inconsistências porque
+
+0:35:23.760,0:35:29.280
+como alguém disse outro dia
+
+0:35:25.760,0:35:31.440
+ou hoje eu acho que era liskov
+
+0:35:29.280,0:35:34.320
+o nome do princípio
+
+0:35:31.440,0:35:36.400
+para quando você fizer subclass de NumPy array
+
+0:35:34.320,0:35:38.960
+que é o que master array faz
+
+0:35:36.400,0:35:41.280
+você vai ter muitos problemas e
+
+0:35:38.960,0:35:41.850
+é o que acontece com master arrays
+
+0:35:43.680,0:35:47.359
+e a outra coisa que eu fico contente
+
+0:35:45.680,0:35:48.400
+que está desaparencendo é NumPy
+
+0:35:47.359,0:35:50.079
+dist utils
+
+0:35:50.079,0:35:54.000
+dentro de um ano mais ou menos isto
+
+0:35:51.680,0:35:55.760
+vai sumir e isso será ótimo.
+
+0:35:55.760,0:35:59.119
+Perguntaram o que eu também
+
+0:35:57.680,0:36:01.920
+gosto?
+
+0:35:59.119,0:36:03.359
+bem eu gosto muito da u-func e digo
+
+0:36:01.920,0:36:04.800
+elas são complicadas
+
+0:36:03.359,0:36:08.079
+mas eu acho que se provaram
+
+0:36:04.800,0:36:09.680
+como conceito que traz
+
+0:36:08.079,0:36:11.520
+muita flexibilidade e muita
+
+0:36:09.680,0:36:14.000
+habilidade
+
+0:36:11.520,0:36:15.200
+de fazer coisas sofisticadas do tipo
+
+0:36:14.000,0:36:18.960
+eu me refiro
+
+0:36:15.200,0:36:21.200
+a você mesmo depois de digamos 15 anos
+
+0:36:18.960,0:36:22.880
+descobrimos uma maneira de
+
+0:36:23.680,0:36:29.119
+adicionar código específico para processador e
+
+0:36:26.960,0:36:31.040
+fazer esses laços rodaram muito rápido
+
+0:36:29.119,0:36:32.480
+em diferentes processadores....
+
+0:36:32.480,0:36:36.560
+sim, é bom que tudo isto funcione
+
+0:36:38.079,0:36:42.880
+Legal. Tyler?
+
+0:36:41.040,0:36:45.200
+Sim, eu tenho que concordar sobre dist utils.
+
+0:36:42.880,0:36:46.800
+Eu acho que nossa diretriz padrão ainda é
+
+0:36:45.200,0:36:48.320
+que você não precisa adicionar
+
+0:36:46.800,0:36:49.680
+testes de regressão quando faz mudanças
+
+0:36:48.320,0:36:50.960
+nestes utils porque tem muita coisa
+
+0:36:49.680,0:36:52.320
+desorganizada
+
+0:36:50.960,0:36:54.880
+que já é um bom indicador que
+
+0:36:52.320,0:36:56.480
+isto está quebrado
+
+0:36:54.880,0:36:58.400
+existem race conditions lá de modo que você
+
+0:36:56.480,0:37:00.640
+não consegue rodar coisas em paralelo
+
+0:36:58.400,0:37:03.440
+builds em paralelo usando que sistema de build
+
+0:37:00.640,0:37:05.520
+hm então sim isto tem que acabar.
+
+0:37:03.440,0:37:07.760
+Eu acho que isto está claro.
+
+0:37:05.520,0:37:09.280
+Sim, eu tambem gosto da u-func tipo
+
+0:37:07.760,0:37:10.560
+você precisa obter a raiz quadrada de
+
+0:37:09.280,0:37:12.000
+10000 números e você tenta fazer isso em
+
+0:37:10.560,0:37:13.920
+um laço em Python e vai acabar
+
+0:37:12.000,0:37:15.839
+ficando algo meio sem jeito e é super
+
+0:37:13.920,0:37:19.599
+conveniente e fica rápido e fácil de
+
+0:37:15.839,0:37:19.599
+entender em NumPy.
+
+0:37:21.200,0:37:25.440
+Bem, eu vou aproveitar a oportunidade
+
+0:37:23.760,0:37:26.640
+e relacionar com outra perguntar do
+
+0:37:25.440,0:37:29.119
+chat. Daí,
+
+0:37:26.640,0:37:30.960
+como funcionam as descontinuações? Estamos falando
+
+0:37:29.119,0:37:32.800
+sobre utils e ser descontinuado
+
+0:37:30.960,0:37:35.440
+e removido da base de código então
+
+0:37:32.800,0:37:37.040
+a pergunta é "como descontinuação funciona?"
+
+0:37:35.440,0:37:39.040
+Percebi que mencionamos que versionamento
+
+0:37:37.040,0:37:41.040
+do NumPy e quem remove a descontinuação
+
+0:37:39.040,0:37:42.160
+em versões futuras? Como que isto
+
+0:37:41.040,0:37:45.280
+funciona?
+
+0:37:42.160,0:37:45.280
+Quem quer responder esta?
+
+0:37:48.480,0:37:52.480
+Bem, então...
+
+0:37:50.720,0:37:54.720
+o que buscamos fazer temos uma política
+
+0:37:52.480,0:37:56.160
+de descontinuação em vigor que eu não
+
+0:37:54.720,0:37:59.119
+tenho muita certeza qual número
+
+0:37:56.160,0:38:01.359
+e que agora diz que aguardamos
+
+0:37:59.119,0:38:03.520
+pelo menos duas release ou um ano
+
+0:38:01.359,0:38:04.880
+para remover a descontinuação ou em alguns
+
+0:38:03.520,0:38:07.680
+casos aguardamos um pouco mais
+
+0:38:04.880,0:38:09.760
+não tem nada muito específico...
+
+0:38:07.680,0:38:12.160
+alguém vai remover a descontinuação depois dos
+
+0:38:09.760,0:38:14.560
+dois anos o ponto aqui é que
+
+0:38:12.160,0:38:17.200
+qualquer um pode embarcar e fazer isto
+
+0:38:14.560,0:38:18.960
+agora mesmo e por este motivo que as vezes
+
+0:38:17.200,0:38:22.000
+as implementações não acabam sendo
+
+0:38:18.960,0:38:23.760
+removidas porque nós esquecemos delas.
+
+0:38:23.760,0:38:29.280
+Bem, a regra diz que pelo menos dois anos
+
+0:38:26.160,0:38:32.800
+é importante e em geral
+
+0:38:29.280,0:38:34.880
+depois desse tempo podemos remover isto
+
+0:38:32.800,0:38:38.079
+ver se é preciso esperar um pouco mais
+
+0:38:34.880,0:38:38.079
+dependendo da issue.
+
+0:38:40.560,0:38:45.280
+Mais alguém quer responder?
+
+0:38:44.240,0:38:47.280
+Só isso mesmo
+
+0:38:45.280,0:38:48.400
+nós somos cuidadoses com as descontinuações
+
+0:38:47.280,0:38:50.640
+eu acho...
+
+0:38:48.400,0:38:53.440
+não é tão simples você sabe como
+
+0:38:50.640,0:38:55.839
+decidir "oh, vamos descontinuar alguma coisa"
+
+0:38:53.440,0:38:59.280
+porque nós não gostamos de fazer isto
+
+0:38:55.839,0:39:01.280
+como feito com master arrays ou até mesmo
+
+0:38:59.280,0:39:02.720
+np.matrix que meio que ficou descontinuado
+
+0:39:01.280,0:39:06.160
+por um tempo e nós
+
+0:39:02.720,0:39:08.720
+não descontinuamos oficialmente.
+
+0:39:06.160,0:39:12.079
+Eu particulamente gosto do fato do
+
+0:39:08.720,0:39:13.680
+NumPy não mudar muito rápido
+
+0:39:12.079,0:39:16.400
+e que
+
+0:39:13.680,0:39:18.720
+o mesmo código vai funcionar exceto
+
+0:39:16.400,0:39:20.480
+por alguns casos de borda para muitas
+
+0:39:18.720,0:39:22.560
+versões...
+
+0:39:20.480,0:39:24.320
+e sempre tem uma conversa sobre
+
+0:39:22.560,0:39:26.480
+NumPy 2
+
+0:39:24.320,0:39:28.240
+nós decidimos que nós não vamos
+
+0:39:26.480,0:39:30.400
+implementar isto por que acabaria
+
+0:39:28.240,0:39:32.160
+causando uma ruptura e eu acho que o NumPy
+
+0:39:30.400,0:39:35.680
+se transformado nos últimos
+
+0:39:32.160,0:39:38.000
+cinco ou seis anos e focado em ao invés de
+
+0:39:35.680,0:39:40.400
+se ser a refer6encia
+
+0:39:38.000,0:39:42.400
+em processamento de array que vai
+
+0:39:40.400,0:39:45.040
+governar o mundo
+
+0:39:42.400,0:39:48.560
+para ser mais algo como...
+
+0:39:45.040,0:39:49.520
+uma prova de conceito para processamento de arrays
+
+0:39:48.560,0:39:52.160
+e então
+
+0:39:49.520,0:39:54.000
+que outras bibliotecas usem ele como api
+
+0:39:52.160,0:39:57.760
+até mesmo existe uma inciativa para
+
+0:39:54.000,0:40:00.960
+que a api realmente fosse NumPy 2
+
+0:39:57.760,0:40:03.520
+e o padrão para api de array
+
+0:40:00.960,0:40:05.839
+o que não é aderente com o NumPy
+
+0:40:03.520,0:40:08.480
+mas você pode conectar por baixo dos panos
+
+0:40:05.839,0:40:10.480
+e fazer todas as mudanças
+
+0:40:08.480,0:40:11.060
+leves.
+
+0:40:12.319,0:40:16.800
+Eu não sei se esta resposta foi muito
+
+0:40:14.079,0:40:19.280
+coerente com a pergunta mas
+
+0:40:16.800,0:40:20.800
+meio que nós estamos muito
+
+0:40:19.280,0:40:22.560
+prezamos muito por...
+
+0:40:20.800,0:40:24.319
+nós não queremos só descontinuar as coisas
+
+0:40:22.560,0:40:25.760
+por serem feias. Nós queremos
+
+0:40:24.319,0:40:28.240
+descontinuar coisas porque elas são
+
+0:40:25.760,0:40:30.480
+perigosas ou poque elas...
+
+0:40:28.240,0:40:34.960
+acabaram ficando inconsistentes com o 
+
+0:40:30.480,0:40:34.960
+o caminho que o próprio Python tomou.
+
+0:40:36.240,0:40:40.560
+Eu acho que isso é ótimo
+
+0:40:37.839,0:40:42.880
+e cai muito bem pois as duas últimas perguntas
+
+0:40:40.560,0:40:45.920
+um fo rohit no chat e outra
+
+0:40:42.880,0:40:48.720
+que nós escolhemos é
+
+0:40:45.920,0:40:52.960
+em uma perspectiva de 10 anos olhando para o futuro
+
+0:40:48.720,0:40:55.200
+o futuro do NumPy tem um roadmap pronto mas
+
+0:40:52.960,0:40:57.359
+para vocês o que enxergam ou porçoes da
+
+0:40:55.200,0:40:59.440
+base de código que idealmente devem
+
+0:40:57.359,0:41:02.319
+resistir ao tempo ou vocês sabem durar um
+
+0:40:59.440,0:41:04.880
+longo período sem sofrer mudanças radicais
+
+0:41:02.319,0:41:08.480
+quais vocês acham que deveriam ser descontinuadas...
+
+0:41:04.880,0:41:10.480
+e eu vou aproveitar e relacionar com
+
+0:41:08.480,0:41:12.000
+o que você estava falando Matti sobre a api
+
+0:41:10.480,0:41:14.640
+de array
+
+0:41:12.000,0:41:16.880
+e adicionar a pergunta do rohit que é
+
+0:41:14.640,0:41:19.440
+a api de array eventualmente vai
+
+0:41:16.880,0:41:21.920
+descartar o nd array daí
+
+0:41:19.440,0:41:24.000
+isso quer dizer que NumPy vai
+
+0:41:21.920,0:41:26.319
+mudar radicalmente no futuro
+
+0:41:24.000,0:41:28.480
+você acha que vai mudar ou que vamos
+
+0:41:26.319,0:41:30.880
+mudar mais ou menos a mesma estrutura
+
+0:41:28.480,0:41:32.319
+ou usar a api de array como uma maneira de interoperar com
+
+0:41:30.880,0:41:34.000
+outras bibliotecas e talvez outras
+
+0:41:32.319,0:41:36.000
+implementações
+
+0:41:34.000,0:41:38.079
+e talvez se alguém pudesse dar
+
+0:41:36.000,0:41:40.800
+uma introdução de cinco minutos 
+
+0:41:38.079,0:41:42.640
+a api de array para que pessoas que não estão
+
+0:41:40.800,0:41:44.400
+familiarizados com os termos que
+
+0:41:42.640,0:41:46.800
+estamos falando.
+
+0:41:44.400,0:41:49.920
+Então, a pergunta é complicada mas as
+
+0:41:46.800,0:41:52.319
+três são roadmap "como você vê
+
+0:41:49.920,0:41:54.400
+NumPy no future?", "tem alguma coisa a ver com
+
+0:41:52.319,0:41:56.880
+a api de array?"
+
+0:41:54.400,0:41:58.640
+e como você vê
+
+0:41:56.880,0:42:01.520
+as mudanças para o NumPy? Você acredita que
+
+0:41:58.640,0:42:03.839
+mudar radicalmente ou meio que vai seguir
+
+0:42:01.520,0:42:03.839
+um curso?
+
+0:42:06.880,0:42:12.079
+Eu vou chamar o Sebastian para falar novamente.
+
+0:42:09.280,0:42:12.079
+Certo...
+
+0:42:12.240,0:42:14.480
+Então...
+
+0:42:14.880,0:42:18.480
+de uma perspectiva de mudanças
+
+0:42:17.280,0:42:20.560
+NumPy
+
+0:42:18.480,0:42:23.920
+como NumPy evolui eu não vejo
+
+0:42:20.560,0:42:26.400
+mudanças radicais para NumPy. Eu já vi...
+
+0:42:23.920,0:42:29.200
+se eu desconsiderar o esforço
+
+0:42:26.400,0:42:33.040
+remoção da api de array no momento...
+
+0:42:29.200,0:42:35.200
+minha opinião é que NumPy...
+
+0:42:33.040,0:42:37.520
+o design do core do NumPy
+
+0:42:35.200,0:42:39.359
+não vai mudar tanto o que está previsto mas
+
+0:42:37.520,0:42:41.119
+eu espero que mude e eu gostaria se
+
+0:42:39.359,0:42:44.000
+algumas parte do number fosse
+
+0:42:41.119,0:42:45.599
+substituída ou modernizada. O que eu
+
+0:42:44.000,0:42:47.280
+particularmente também gostaria é que 
+
+0:42:45.599,0:42:49.200
+eu estou trabalhando nos dtypes que está
+
+0:42:47.280,0:42:51.920
+quase pronto eu gostaria que se surgisse um
+
+0:42:49.200,0:42:53.839
+ecossistema maior em torno disto
+
+0:42:51.920,0:42:55.760
+e
+
+0:42:53.839,0:42:57.760
+o que eu particularmente gostaria é
+
+0:42:55.760,0:43:00.400
+tornar mais partes do NumPy
+
+0:42:57.760,0:43:03.200
+internals disponível para outros projetos
+
+0:43:00.400,0:43:05.920
+daí algumas partes que estou trabalhando...
+
+0:43:03.200,0:43:08.160
+daí a api u-func por exemplo poderia
+
+0:43:05.920,0:43:10.800
+ser reutilizada por objetos que não são arrays
+
+0:43:08.160,0:43:13.359
+porém arrays esparsos ou outros em princípio
+
+0:43:10.800,0:43:15.680
+daí eu poderia imaginar um
+
+0:43:13.359,0:43:16.960
+ecosistema um pequeno novo ecosistema em torno
+
+0:43:15.680,0:43:19.520
+do NumPy capaz de
+
+0:43:16.960,0:43:21.200
+compartilhar mais do NumPy mas...
+
+0:43:21.200,0:43:25.920
+mas não necessariamente no baixo nível
+
+0:43:22.960,0:43:27.760
+no nível mais baixo
+
+0:43:25.920,0:43:30.240
+de detalhes de implementação.
+
+0:43:27.760,0:43:31.839
+Por outro lado eu acho
+
+0:43:30.240,0:43:33.839
+que uma oportunidade para os próximos anos é
+
+0:43:31.839,0:43:36.720
+o esforço na api de array no sentido de
+
+0:43:33.839,0:43:38.640
+de que a api de array
+
+0:43:36.720,0:43:40.880
+é o caminho para ou meio para
+
+0:43:38.640,0:43:44.400
+padronizar como
+
+0:43:40.880,0:43:47.920
+nós escrevemos código para arrays em Python e
+
+0:43:44.400,0:43:49.200
+se nós padronizarmos isto então
+
+0:43:47.920,0:43:50.720
+não se torna mais tão relevante
+
+0:43:49.200,0:43:52.319
+se seu array está implementado
+
+0:43:50.720,0:43:55.440
+em NumPy ou implementado em
+
+0:43:52.319,0:43:57.359
+PyTorch ou qualquer outra biblioteca
+
+0:43:55.440,0:43:59.280
+podemos escrever uma função
+
+0:43:57.359,0:44:00.960
+ou você pode escrever funcionalidade que irá
+
+0:43:59.280,0:44:03.119
+trabalhar com qualquer um destes
+
+0:44:00.960,0:44:06.680
+e este esforço é muito promissor
+
+0:44:03.119,0:44:06.680
+no futuro eu acho.
+
+0:44:10.079,0:44:15.520
+Alguém quer adicionar mais alguma coisa? e
+
+0:44:11.920,0:44:15.520
+eu também gostaria de complementar...
+
+0:44:15.839,0:44:21.760
+você vai vincluar isto a uma nova feature
+
+0:44:19.119,0:44:23.440
+um nova proposta de feature e como isto é admitido ou
+
+0:44:21.760,0:44:26.079
+não no NumPy?
+
+0:44:23.440,0:44:28.160
+tem alguma coisa que estamos esperando?
+
+0:44:26.079,0:44:29.200
+ter novas feature...
+
+0:44:29.200,0:44:32.640
+porque eu acho que é algo que
+
+0:44:30.800,0:44:34.960
+as vezes vem das pessoas
+
+0:44:32.640,0:44:37.599
+adicionar novas features ao NumPy e nós
+
+0:44:34.960,0:44:40.560
+frequentemente dizemos "não".
+
+0:44:37.599,0:44:44.319
+Vocês se importam de falar um pouco sobre isto?
+
+0:44:40.560,0:44:44.319
+Talvez o Tyler. Você quer ser o próximo?
+
+0:44:46.079,0:44:49.520
+Sim, eu não sei se sou o melhor para
+
+0:44:47.760,0:44:51.119
+comentar sobre isto eu acho que a api de array
+
+0:44:49.520,0:44:52.800
+pode parecer que você quer fazer uma grande mudança
+
+0:44:51.119,0:44:54.160
+como adicionar uma nova função
+
+0:44:52.800,0:44:55.440
+eu acredito que agora...
+
+0:44:55.440,0:44:58.240
+têm mais pessoas que teriam que embarcar
+
+0:44:56.720,0:44:59.680
+neste processo de decisão se eu
+
+0:44:58.240,0:45:01.839
+entendi corretamente...
+
+0:44:59.680,0:45:04.880
+porque é necessário buscar
+
+0:45:01.839,0:45:07.040
+suporte relacionado com a funcionalidade e
+
+0:45:04.880,0:45:08.480
+a implementação mas provavelmente
+
+0:45:07.040,0:45:10.560
+Matti e Sebastian estão melhor
+
+0:45:08.480,0:45:11.440
+equipados para comentar neste assunto mas sim
+
+0:45:10.560,0:45:12.720
+Eu digo NumPy está na base do ecosistema
+
+0:45:11.440,0:45:14.079
+e sempre vai haver uma
+
+0:45:12.720,0:45:15.440
+pressão para
+
+0:45:14.079,0:45:17.839
+que grandes mudanças estejam muito bem justificadas
+
+0:45:15.440,0:45:20.880
+para receber a carga de manutenção e a necessidade de
+
+0:45:17.839,0:45:20.880
+algo ser adicionado.
+
+0:45:26.160,0:45:31.040
+Todo mundo tem uma opinião  nisto e eu acho
+
+0:45:28.960,0:45:32.400
+que para o NumPy
+
+0:45:31.040,0:45:33.680
+quand se trata de novas features eu tenho certeza
+
+0:45:32.400,0:45:36.000
+que existem novas features que podem
+
+0:45:33.680,0:45:38.160
+ser adicionadas, algumas funções novas...
+
+0:45:36.000,0:45:41.680
+provavelmente irão surgir e nós
+
+0:45:38.160,0:45:43.920
+as adicionaremos porém eu não espero que NumPy
+
+0:45:41.680,0:45:46.960
+receba um grande volume de novas features
+
+0:45:43.920,0:45:48.880
+no futuro próximo. O que acontece é que
+
+0:45:46.960,0:45:50.800
+não é difícil expandir o NumPy fora
+
+0:45:48.880,0:45:54.079
+do NumPy como o SciPy tem variadas u-funcs
+
+0:45:50.800,0:45:56.240
+que funcionam perfeitamente com NumPy.
+
+0:45:54.079,0:45:57.760
+Daí, muitas destas features que as pessoas
+
+0:45:56.240,0:45:59.599
+pensam que serviriam bem no NumPy na
+
+0:45:57.760,0:46:01.040
+realidade tem um fit muito melhor fora
+
+0:45:59.599,0:46:02.560
+do NumPy.
+
+0:46:01.040,0:46:04.240
+especialmente agora e eu acho que estamos
+
+0:46:02.560,0:46:06.880
+cada vez mais nesta direção
+
+0:46:04.240,0:46:09.119
+e todo o esforço para padronização
+
+0:46:06.880,0:46:09.920
+faz disto tudo algo muito melhor porque agora
+
+0:46:09.119,0:46:12.000
+bem...
+
+0:46:09.920,0:46:13.760
+se alguém aparece e diz "Eu gostaria
+
+0:46:12.000,0:46:15.520
+que p NumPy funcionasse cp,
+
+0:46:13.760,0:46:18.160
+cupy array ou cuda array
+
+0:46:15.520,0:46:20.240
+com cuda arrays ou com gpu arrays"
+
+0:46:18.160,0:46:22.240
+o que podemos oferecer é que podemos 
+
+0:46:20.240,0:46:24.319
+tornar mais fácil a substituição dos dois e então
+
+0:46:22.240,0:46:26.720
+escrever código que funciona com os dois juntos
+
+0:46:24.319,0:46:29.119
+mas podemos oferecer é 
+
+0:46:26.720,0:46:31.680
+que NumPy vai funcionar no cuda arrays em breve
+
+0:46:29.119,0:46:31.680
+em um futuro próximo.
+
+0:46:34.640,0:46:40.079
+Sim, eu realmente confio no ecosistma.
+
+0:46:36.720,0:46:41.599
+Eu acho que SciPy e scikit-learn e
+
+0:46:40.079,0:46:42.960
+todo o Sci
+
+0:46:41.599,0:46:45.440
+e outros
+
+0:46:42.960,0:46:49.520
+traço outros
+
+0:46:45.440,0:46:49.520
+e açòes de rede que possuem uma boa
+
+0:46:50.160,0:46:54.079
+comunidade e  que possuem
+
+0:46:52.240,0:46:57.520
+alguma posição
+
+0:46:54.079,0:46:58.960
+não seria interessante que o NumPy
+
+0:46:57.520,0:47:01.119
+assumisse todos
+
+0:46:58.960,0:47:03.760
+as
+
+0:47:01.119,0:47:05.119
+as habilidades de todas essas outras bibliotecas
+
+0:47:05.119,0:47:07.599
+daí
+
+0:47:05.839,0:47:10.000
+Eu acho que como o Sebastian disse existe
+
+0:47:07.599,0:47:10.880
+um equilíbrio entre somente importar uma
+
+0:47:10.000,0:47:11.839
+coisa
+
+0:47:10.880,0:47:15.280
+e
+
+0:47:11.839,0:47:16.720
+precisando instalar somente uma coisa
+
+0:47:15.280,0:47:20.079
+e então
+
+0:47:16.720,0:47:20.079
+o quanto isso pode escalar em tamanho.
+
+0:47:22.559,0:47:26.400
+Eu ficaria muito feliz se
+
+0:47:24.559,0:47:28.079
+toda a atenção que o NumPy recebeu nestes
+
+0:47:26.400,0:47:29.680
+últimos quatro anos
+
+0:47:28.079,0:47:31.599
+pudesse ser transferida para algumas dessas outras
+
+0:47:29.680,0:47:34.240
+bibliotecas. Eu digo que NumPy recebeu esta
+
+0:47:31.599,0:47:36.400
+atenção e muita habildiade de
+
+0:47:34.240,0:47:39.280
+impulsionar-se para a frente seria
+
+0:47:36.400,0:47:41.680
+bom se matplotlib e
+
+0:47:39.280,0:47:44.400
+SciPy e scikit e estes outros
+
+0:47:41.680,0:47:46.880
+também tivessem benefícios que
+
+0:47:44.400,0:47:51.000
+permitissem que contratassem mantenedores
+
+0:47:46.880,0:47:51.000
+para atualizar a base de código deles.
+
+0:47:53.760,0:47:58.079
+Ótimos tópicos pesssoal. Sim, estamos
+
+0:47:56.319,0:48:00.720
+chegando no final e temos
+
+0:47:58.079,0:48:02.800
+algo como cinco minutos restantes se alguém
+
+0:48:00.720,0:48:05.920
+quiser ficar um pouco mais eu ficaria feliz
+
+0:48:02.800,0:48:07.839
+e se alguém quiser responder perguntas mas
+
+0:48:05.920,0:48:09.599
+se vocês possuem qualquer pergunta
+
+0:48:07.839,0:48:11.440
+por favor coloquem no chat e nós
+
+0:48:09.599,0:48:13.440
+tentaremos falar sobre ela...
+
+0:48:11.440,0:48:15.359
+mas agora eu só queria dar
+
+0:48:13.440,0:48:18.240
+alguns minutos para cada mantenedor para
+
+0:48:15.359,0:48:20.400
+considerações finais qualquer coisa que nós
+
+0:48:18.240,0:48:21.680
+não perguntamos a vocês mas vocês acham que é importante
+
+0:48:20.400,0:48:24.720
+compartilhar
+
+0:48:21.680,0:48:27.720
+e eu vou colocar no chat ou
+
+0:48:24.720,0:48:29.280
+um link para
+
+0:48:27.720,0:48:31.839
+numpy.org/contribute
+
+0:48:29.280,0:48:33.760
+que é onde você encontra
+
+0:48:31.839,0:48:35.760
+mais detalhes sobre como entrar na comunidade
+
+0:48:33.760,0:48:38.800
+fazer as contribuições e as diferentes
+
+0:48:35.760,0:48:40.000
+maneiras de entrar em contato com os mantenedores
+
+0:48:38.800,0:48:42.800
+e toda a
+
+0:48:40.000,0:48:45.520
+comunidade NumPy. Então
+
+0:48:42.800,0:48:47.119
+qualquer consideração final ou qualquer coisa que nós
+
+0:48:45.520,0:48:49.760
+não falamos sobre e vocês sentem que seria
+
+0:48:47.119,0:48:52.319
+interessante compartilhar?
+
+0:48:49.760,0:48:52.319
+Sebastian?
+
+0:49:01.359,0:49:06.160
+Não, desculpe. Não tenho nada em mente.
+
+0:49:04.880,0:49:08.400
+Matti?
+
+0:49:06.160,0:49:10.880
+Bem, eu sempre tenho algo para dizer.
+
+0:49:08.400,0:49:12.559
+Antes de qualquer coisa seria bem
+
+0:49:10.880,0:49:14.160
+legal se as pessoas se envolvessem
+
+0:49:12.559,0:49:16.559
+com o projeto como a Melissa dise
+
+0:49:14.160,0:49:18.800
+existem muitas coisas por aí relacionada
+
+0:49:16.559,0:49:21.680
+com código C e
+
+0:49:18.800,0:49:22.880
+bugs e compiladores que precisa de 
+
+0:49:21.680,0:49:26.160
+muito trabalho
+
+0:49:22.880,0:49:28.960
+a própria documenação e outras coisas e novamente
+
+0:49:26.160,0:49:30.880
+NumPy é parte de um ecosistema e
+
+0:49:28.960,0:49:32.960
+seria legal se as pessoas se envolvessem com
+
+0:49:30.880,0:49:34.160
+um pouco mais com o ecosistema eu
+
+0:49:32.960,0:49:37.440
+diria que
+
+0:49:34.160,0:49:41.200
+eu fiz muito progresso com isto tal que...
+
+0:49:37.440,0:49:43.920
+open source para mim realmente permitiu uma
+
+0:49:41.200,0:49:45.040
+oportunidade para 
+
+0:49:43.920,0:49:49.200
+mudança de carreira
+
+0:49:45.040,0:49:50.800
+e sinto muita gratidão por isto
+
+0:49:49.200,0:49:53.280
+e eu acho que
+
+0:49:50.800,0:49:56.480
+contribuir para open source é
+
+0:49:53.280,0:49:59.119
+abrir seus olhos e os olhos do seu empregador
+
+0:49:56.480,0:50:01.440
+para tantas outras possibildiades que
+
+0:49:59.119,0:50:05.359
+existem por aí que funcionam bem com contribuição
+
+0:50:01.440,0:50:05.359
+para todo um ecosistema de software.
+
+0:50:07.119,0:50:13.040
+Tyler, alguma observação final?
+
+0:50:11.040,0:50:15.680
+Sim, eu não tenho tanta certeza que meu empregador
+
+0:50:13.040,0:50:17.839
+se convence disto mas... Sim, eu acho que somos
+
+0:50:15.680,0:50:19.680
+uma ótima comunidade e eu acho que precisamos
+
+0:50:17.839,0:50:21.920
+de mais diversidade no
+
+0:50:19.680,0:50:23.359
+no core dos times daí nós temos
+
+0:50:21.920,0:50:25.599
+pessoas de diversos países que
+
+0:50:23.359,0:50:27.599
+falam diferentes idiomas
+
+0:50:25.599,0:50:29.440
+e temos diferentes ideias que
+
+0:50:27.599,0:50:34.000
+das do time principal
+
+0:50:29.440,0:50:34.000
+que acabam enriquecendo o desenvolvimento dos times.
+
+0:50:37.359,0:50:42.640
+Maravilhoso! Então acho que é isto,
+
+0:50:39.359,0:50:42.640
+Temos mais alguma pergunta?
+
+0:50:48.480,0:50:53.040
+Inessa, você quer falar algo?
+
+0:50:51.119,0:50:55.760
+perguntar algo talvez
+
+0:50:53.040,0:50:57.839
+Bem, eu posso ver duas perguntas no
+
+0:50:55.760,0:50:59.760
+chat.
+
+0:50:57.839,0:51:01.680
+Sim, nós passamos por elas porque
+
+0:50:59.760,0:51:03.760
+elas demandam um aprofundamente então
+
+0:51:01.680,0:51:05.280
+não queríamos assustar as pessoas
+
+0:51:03.760,0:51:06.839
+se tivermos tempo no final eu acho que
+
+0:51:05.280,0:51:09.119
+podemos tratar delas.
+
+0:51:06.839,0:51:12.160
+Talvez
+
+0:51:09.119,0:51:14.079
+nós podemos segurá-las para o 
+
+0:51:12.160,0:51:15.599
+próximo encontro
+
+0:51:14.079,0:51:17.680
+a próxima vez
+
+0:51:15.599,0:51:18.640
+a próxima NewCommer's Hour.
+
+0:51:18.640,0:51:21.440
+Sim, estamos com o tempo bem
+
+0:51:20.319,0:51:25.280
+apertado.
+
+0:51:21.440,0:51:27.839
+Melissa, Sebastian, Tyler, Matti.
+
+0:51:25.280,0:51:29.119
+Muito obrigada por serem tão generosos
+
+0:51:27.839,0:51:31.680
+com o seu tempo e compartilhar 
+
+0:51:29.119,0:51:34.000
+seu conhecimento conosco.
+
+0:51:31.680,0:51:35.680
+Muito obrigada a todos por se juntarem a nós.
+
+0:51:34.000,0:51:38.559
+Eu sei que
+
+0:51:35.680,0:51:40.319
+Jackson permaneceu acordado até mais tarde
+
+0:51:38.559,0:51:41.760
+por estar no Japão muito obrigada
+
+0:51:40.319,0:51:42.720
+por estarem aqui.
+
+0:51:42.720,0:51:47.760
+Eu gostaria muito de ouvir o feedback
+
+0:51:44.960,0:51:49.839
+de vocês sobre o formato de hoje e se gostaram
+
+0:51:47.760,0:51:52.240
+qualquer outro tópico que queiram
+
+0:51:49.839,0:51:54.319
+cobrir
+
+0:51:52.240,0:51:56.800
+então tem uma última pergunta que
+
+0:51:54.319,0:51:58.640
+eu acho que vale a pena responder
+
+0:51:56.800,0:52:01.119
+aqui no chat "como que recém-chegados
+
+0:51:58.640,0:52:03.599
+encontram issues para começar?" voc6e pode
+
+0:52:01.119,0:52:06.400
+sempre verificar a issue tracker entretanto
+
+0:52:03.599,0:52:08.160
+nós temos muitas issues e daí eu
+
+0:52:06.400,0:52:11.119
+entendo que é difícil
+
+0:52:08.160,0:52:11.920
+se encontrar ali então eu 
+
+0:52:11.119,0:52:15.040
+diria
+
+0:52:11.920,0:52:17.520
+talvez começar com documentação ou
+
+0:52:15.040,0:52:18.720
+coisas que você sinta que esteja em um 
+
+0:52:17.520,0:52:21.119
+escopo menor
+
+0:52:18.720,0:52:22.400
+e perguntar um mantenedor por ajuda "ei esta
+
+0:52:21.119,0:52:24.319
+é a melhor maneira 
+
+0:52:22.400,0:52:26.880
+de resolver isto?"
+
+0:52:24.319,0:52:29.440
+...sabe como é "este é o arquivo correto
+
+0:52:26.880,0:52:32.160
+que eu deveria estar editando?" coisas deste tipo
+
+0:52:29.440,0:52:35.359
+se você for até numpy.org/contribute
+
+0:52:32.160,0:52:37.280
+nós também temos um espaço no slack
+
+0:52:35.359,0:52:39.359
+que você pode usar para perguntar coisas
+
+0:52:37.280,0:52:41.359
+anter de inciar a contribuição ou talvez
+
+0:52:39.359,0:52:43.760
+verificar se uma issue é apropriada para
+
+0:52:41.359,0:52:45.359
+você, você pode ingressar no slack e
+
+0:52:43.760,0:52:47.359
+falar conosco por ali.
+
+0:52:45.359,0:52:49.440
+Tem sempre alguém por ali
+
+0:52:47.359,0:52:51.119
+a qualquer momento porque temos pessoas
+
+0:52:49.440,0:52:54.000
+de diferentes partes do mundo e aí
+
+0:52:51.119,0:52:56.079
+diferentes fusos horários se você precisar de ajuda
+
+0:52:54.000,0:52:58.400
+simplesmente apareça por lá e tentaremos
+
+0:52:56.079,0:53:01.040
+o nosso melhor para te ajudar e te guiar
+
+0:52:58.400,0:53:02.880
+nessas issues. Nós não temos rótulos ou não
+
+0:53:01.040,0:53:03.839
+usamos rótulos de issues
+
+0:53:02.880,0:53:05.760
+pois
+
+0:53:03.839,0:53:07.200
+porque as vezes é difícil
+
+0:53:05.760,0:53:09.440
+identificar
+
+0:53:07.200,0:53:12.160
+issues que são...
+
+0:53:09.440,0:53:14.400
+apropriadas para recém-chegados mas
+
+0:53:12.160,0:53:16.559
+estamos dando o nosso melhor. Então, se você quer
+
+0:53:14.400,0:53:18.400
+se juntar ao slack eu acho que
+
+0:53:16.559,0:53:21.839
+é uma ótima opção para comunicação
+
+0:53:18.400,0:53:21.839
+e fazer perguntas....
+
