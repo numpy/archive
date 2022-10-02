@@ -2,7 +2,7 @@
 
 - Time: 4:00 pm UTC
 - Join the meeting via Zoom: https://us02web.zoom.us/j/87192457898
-- [Numpy community events calendar](https://scientific-python.org/calendars/)
+- [NumPy community events calendar](https://scientific-python.org/calendars/)
 - [Community meetings notes archive](https://github.com/numpy/archive/tree/main/community_meetings)
 - [Triage meetings notes archive](https://github.com/numpy/archive/tree/master/triage_meetings)
 - [Documentation team meetings notes archive](https://github.com/numpy/archive/tree/main/docs_team_meetings)
