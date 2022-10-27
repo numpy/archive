@@ -13,7 +13,7 @@ Every event announcement must contain the following information:
 2. Post an announcement on Twitter (@numpy_team) with the graphic poster
 (https://www.canva.com/design/DAFEGbPb_rU/p7n9wBP80MarSxt4jxib5w/view) linking to the announcement 
 on the mailing list (mainly to protect the Zoom link).</br> 
-*Example:*
+*Example:* https://twitter.com/numpy_team/status/1583116873771937793
 3. Post an announcement on NumPy Slack in the #events channel.</br> 
 *Example:* https://numpy-team.slack.com/archives/CSH99M19C/p1652837439103709
 
