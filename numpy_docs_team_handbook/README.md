@@ -1,9 +1,3 @@
----
-title: NumPy documentation team handbook
-
----
-
-
 # NumPy documentation team handbook
 
 
