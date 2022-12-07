@@ -3,9 +3,9 @@
 
 ## Leadership
 
-**2022 - present**  Ross Barnowski, Mukulika Pahari
+**December 2022 - present**  Ross Barnowski, Mukulika Pahari
 
-**2020 - 2022** Melissa Mendonça
+**March 2020 - December 2022** Melissa Mendonça
 
 ## Meetings
 
