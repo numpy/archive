@@ -16,6 +16,13 @@ NumPy Documentation Team meetings are held on a bi-weekly basis to discuss
 everything related to the official NumPy documentation. 
 Everyone is welcome to attend and contribute to a conversation.
 
+### **Meeting announcements**
+
+1. Post an announcement on the NumPy mailing list.</br> 
+*Example:* [https://mail.python.org/archives/list/numpy-discussion@python.org/message/JZBN5RXJ7OY6UD2SMQGQY3GZWR3DMGYI/](https://mail.python.org/archives/list/numpy-discussion@python.org/message/PDARMZ7AOLSAPOOW7WB6FPTOHZT42L24/)
+2. Post an announcement on NumPy Slack in the #events channel.</br>
+*Example:* https://numpy-team.slack.com/archives/CSH99M19C/p1655610908165999
+
 ### **Meeting template**
 
 Meeting notes are taken using the following template: https://hackmd.io/oB_boakvRqKR-_2jRV-Qjg
