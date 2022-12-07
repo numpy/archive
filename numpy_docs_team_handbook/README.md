@@ -23,6 +23,10 @@ Everyone is welcome to attend and contribute to a conversation.
 2. Post an announcement on NumPy Slack in the #events channel.</br>
 *Example:* https://numpy-team.slack.com/archives/CSH99M19C/p1655610908165999
 
+### **Preparation for a meeting**
+
+TO DO
+
 ### **Meeting template**
 
 Meeting notes are taken using the following template: https://hackmd.io/oB_boakvRqKR-_2jRV-Qjg
@@ -44,6 +48,8 @@ Every meeting should have the following roles:
 - Scribe
   - provides additional context/summary/action points based on conversations on a particular topic to the meeting notes
   - copies conversations/opinions from a meeting chat (if needed)
+
+
 
 
 
