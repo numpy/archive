@@ -51,7 +51,9 @@ Every meeting should have the following roles:
   - provides additional context/summary/action points based on conversations on a particular topic to the meeting notes
   - copies conversations/opinions from a meeting chat (if needed)
 
+## **Resources**
+- Archive of the documentation related to NumPy's participation in Google Season of Docs (GSOD): [https://github.com/numpy/numpy/wiki](https://github.com/numpy/numpy/wiki). (TIP: Use the search tool in the right hand side of the web page.)
 
-
+- Checklist for onboarding new team leaders: https://github.com/numpy/archive/blob/main/numpy_docs_team_handbook/onboarding-checklist.md
 
 
