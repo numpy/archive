@@ -29,6 +29,10 @@ IMPORTANT: Verify that the shared Zoom link is up to date.
 
 TO DO
 
+### **Closing a meeting**
+1. Review meeting notes for readability, preferably right after the meeting.
+2. Archive the notes in a .md format by committing it to https://github.com/numpy/archive/tree/main/docs_team_meetings.
+
 ### **Meeting template**
 
 Meeting notes are taken using the following template: https://hackmd.io/oB_boakvRqKR-_2jRV-Qjg
