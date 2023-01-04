@@ -32,9 +32,12 @@ Everyone is welcome to attend and contribute to a conversation.
 
 IMPORTANT: Verify that the shared Zoom link is up to date.
 
-### **Preparation for a meeting**
+### **Preparing for a meeting**
+1. Update the dates and times.
+2. Clear the "Present" section.
+3. Move the items from the “New Topics” section to “Follow-up from last meeting / discussions”.
+4. Review the “Follow-up …” section and remove the agenda items that don’t require further attention.
 
-TO DO
 
 ### **Closing a meeting**
 1. Review meeting notes for readability, preferably right after the meeting.
