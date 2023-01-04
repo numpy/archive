@@ -19,9 +19,11 @@ Everyone is welcome to attend and contribute to a conversation.
 ### **Meeting announcements**
 
 1. Post an announcement on the NumPy mailing list.</br> 
-*Example:* [https://mail.python.org/archives/list/numpy-discussion@python.org/message/JZBN5RXJ7OY6UD2SMQGQY3GZWR3DMGYI/](https://mail.python.org/archives/list/numpy-discussion@python.org/message/PDARMZ7AOLSAPOOW7WB6FPTOHZT42L24/)
+*Example:* [https://mail.python.org/archives/list/numpy-discussion@python.org/message/FG23P75GMXO4GXFJ7ZJPNUQZCFMXH43L/](https://mail.python.org/archives/list/numpy-discussion@python.org/message/FG23P75GMXO4GXFJ7ZJPNUQZCFMXH43L/)
 2. Post an announcement on NumPy Slack in the #events channel.</br>
-*Example:* https://numpy-team.slack.com/archives/CSH99M19C/p1655610908165999
+*Example:* https://numpy-team.slack.com/archives/CSH99M19C/p1672592861545109
+
+IMPORTANT: Verify that the shared Zoom link is up to date.
 
 ### **Preparation for a meeting**
 
