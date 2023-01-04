@@ -1,4 +1,4 @@
-# NumPy documentation team handbook
+# NumPy Documentation Team handbook
 
 
 ## Leadership
@@ -6,6 +6,13 @@
 **December 2022 - present**  Ross Barnowski, Mukulika Pahari
 
 **March 2020 - December 2022** Melissa Mendonça
+
+## Team Leads responsibilities
+- Hosting meetings.
+
+- Ensuring that every team meeting is properly documented and the notes are archived.
+
+- Initiating and leading activities that improve the quality of the NumPy official documentation.
 
 ## Meetings
 
