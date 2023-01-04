@@ -7,7 +7,7 @@
 
 **March 2020 - December 2022** Melissa Mendonça
 
-## Team Leads responsibilities
+### Team Leads responsibilities
 - Hosting meetings.
 
 - Ensuring that every team meeting is properly documented and the notes are archived.
@@ -66,7 +66,7 @@ Every meeting should have the following roles:
   - copies conversations/opinions from a meeting chat (if needed)
 
 ## **Resources**
-- Archive of the documentation related to NumPy's participation in Google Season of Docs (GSOD): [https://github.com/numpy/numpy/wiki](https://github.com/numpy/numpy/wiki). (TIP: Use the search tool in the right hand side of the web page.)
+- Archive of the documentation related to NumPy's participation in Google Season of Docs (GSOD): https://github.com/numpy/numpy/wiki (TIP: Use the search tool in the right hand side of the web page.)
 
 - Checklist for onboarding new team leaders: https://github.com/numpy/archive/blob/main/numpy_docs_team_handbook/onboarding-checklist.md
 
