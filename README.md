@@ -18,6 +18,10 @@ Notes taken during bi-weekly triage meetings.
 
 Notes taken during bi-weekly documentation team meetings.
 
+## `optim_team_meetings`
+
+Notes taken during optimization team meetings.
+
 ## `web_team_meetings`
 
 Notes taken during web team meetings.
