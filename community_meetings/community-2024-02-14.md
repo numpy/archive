@@ -54,11 +54,7 @@ _For the notes from the previous meeting, visit: https://github.com/numpy/archiv
   -  When to merge? After the branching of NumPy 2.0
   -  Changing the signature of the inner loop is problematic, especially around dispatching. But Sayed suggests making the wrapper around the changed signature into be meta-objects that will mitigate much of the problem.
 
-- Extended JSON standard format for NumPy: expect a proposal via the mailing list
-
-
-## Action items
-
+- Proposal to adopt an extended JSON format: expect a proposal via the mailing list
 
 ---
 
