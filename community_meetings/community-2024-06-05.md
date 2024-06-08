@@ -12,11 +12,11 @@ The NumPy Steering Council has made a strong commitment to creating an open, inc
 All attendees of NumPy community events must adhere to the NumPy Code of Conduct (https://numpy.org/code-of-conduct/). 
 If you see violations, take a screenshot, intervene in a respectful manner, and report it to the CoC Committee via email. For more information, refer to the Reporting Guidelines section on https://numpy.org/code-of-conduct/.
 
-**Present:** Ben Woodruff, Mateusz, Chuck, Nathan, Sebastian
+**Present:** Ben Woodruff, Mateusz Sokol, Chuck Harris, Nathan Goldbaum, Sebastian Berg
 
 ## Follow-up from the last meeting / discussions
 
-_For the notes from the previous meeting, visit: https://github.com/numpy/archive/tree/main/community_meetings
+_For the notes from the previous meeting, visit:_ https://github.com/numpy/archive/tree/main/community_meetings
 
 - (after rc1 and maybe rc2) How to announce 2.0?
   - Blog post on scientific python (probably)
@@ -33,12 +33,13 @@ _For the notes from the previous meeting, visit: https://github.com/numpy/archiv
 - [name=rgommers] Roadmap update: https://github.com/numpy/numpy/pull/26505
     * Still moving forward, a few more people want to look.
 
-- NEP 50 and NumPy API 2.0 changes: we should apply the  label to be able to keep track.
-
 
 ## New topics
 
 - Sebastian gave an update about the scientific-python meeting.
+
+- Had a discussion about recognizing large funded efforts on the website or with some kind of label of pull requests.
+    - Partially to recognize and thank funders and encourage future work but also for transparency. 
 
 - [name=mtsokol] Array API compatibility for `np.ceil`, `np.floor`, and `np.trunc`:
   ```
