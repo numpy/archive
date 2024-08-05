@@ -40,10 +40,10 @@ The choices are:
 
 - Project's social media presence.
 Discussion: Currently, we have accounts on X and LinkedIn for announcements only. There was some discussion on [a numpy.org issue](https://github.com/numpy/numpy.org/issues/765) to update the Twitter icon to X or to remove the X link altogether. There is some feeling X has become a controversial platform. Should we maintain our presence there?
-  - both "yes" and "no" were heard in the meeting.
+  - Both "yes" and "no" were heard in the meeting.
   - Follower stats:
-  LinkedIn - 3.2k
-  X - 38.9k
+    - LinkedIn - 3.2k
+    - X - 38.9k
   - Despite the increasing level of user engagement on LinkedIn, X continues to serve as a primary channel for communication with the broader NumPy community.
   - Conclusion: we should keep our presence on various social media platforms, but we do not need to invite users and contributors to connect with the project on social media. This decision is motivated by the fact that the primary goal of the NumPy social media accounts is to direct traffic to the website, rather than to expand our social media audience.
 
