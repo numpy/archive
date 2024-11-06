@@ -1,3 +1,9 @@
+---
+title: NumPy community meeting
+tags: [NumPy]
+
+---
+
 # 2024-10-23 NumPy community meeting
 
 - Time: 18:00 (6:00 pm) UTC
@@ -48,4 +54,3 @@ Follow us on **LinkedIn**: https://www.linkedin.com/company/numpy/
 
 ---
 Remember to archive this file by committing it to [github.com/numpy/archive/community_meetings](https://github.com/numpy/archive/tree/main/community_meetings)
-
