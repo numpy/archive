@@ -75,6 +75,10 @@ The Lead and Deputy Lead model is intended to:
 * Ensure that leadership responsibilities are shared and distributed across the contributor
   community.
 
+If either Documentation Team leadership position is vacant, or if the individuals serving in 
+these roles are unable or unavailable to fulfill their responsibilities, the Steering Council 
+may facilitate the selection and onboarding of new members of the leadership team.
+
 ## Decision-Making
 
 The Documentation Team operates by lazy consensus whenever possible. When consensus cannot be reached, 
