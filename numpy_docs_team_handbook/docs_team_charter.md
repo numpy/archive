@@ -34,14 +34,15 @@ across the project.
 * Ensuring continuity of documentation initiatives, team operations, and leadership
   transitions.
 
-The Documentation Team Lead shall serve a term of one year.
+The Documentation Team Lead shall serve a term of one year. At the conclusion of the 
+term, the Deputy Lead shall ordinarily assume the role (see Deputy Lead below). The 
+outgoing Lead may serve additional non-consecutive terms. Consecutive terms are 
+possible only if the NumPy Steering Council determines that an alternative transition 
+is necessary.
 
-There is no limit on the number of terms an individual may serve.
-
-At the conclusion of the term, the Deputy Lead shall ordinarily assume the role, subject 
-to confirmation by the Steering Council. The introduction of a 1-year term is intended to 
-strengthen the stewardship of NumPy documentation, distribute leadership responsibilities, 
-and create opportunities for leadership development within the NumPy contributor community.
+The introduction of a 1-year term is intended to strengthen the stewardship of NumPy 
+documentation, distribute leadership responsibilities, and create opportunities for 
+leadership development within the NumPy contributor community.
 
 ### Deputy Lead
 
